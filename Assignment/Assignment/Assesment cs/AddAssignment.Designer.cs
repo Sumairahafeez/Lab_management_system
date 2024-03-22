@@ -34,7 +34,6 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
@@ -47,6 +46,7 @@
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -106,13 +106,6 @@
             this.textBox4.TabIndex = 8;
             this.textBox4.Text = "Date Created";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(668, 343);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(241, 20);
-            this.maskedTextBox2.TabIndex = 9;
             // 
             // textBox5
             // 
@@ -257,11 +250,19 @@
             this.textBox1.TabIndex = 23;
             this.textBox1.Text = " ASSESSMENT MANAGEMENT SYSTEM";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(668, 338);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(241, 20);
+            this.dateTimePicker1.TabIndex = 24;
+            // 
             // AddAssignment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1257, 594);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -273,7 +274,6 @@
             this.Controls.Add(this.maskedTextBox3);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.textBox3);
@@ -296,7 +296,6 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
         private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.MaskedTextBox maskedTextBox3;
@@ -309,5 +308,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

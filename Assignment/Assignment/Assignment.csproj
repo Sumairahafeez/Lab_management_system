@@ -47,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assesment cs\AddAssComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assesment cs\AddAssComp.Designer.cs">
+      <DependentUpon>AddAssComp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Assesment cs\AddAssignment.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Assesment cs\AddAssignment.Designer.cs">
       <DependentUpon>AddAssignment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assesment cs\AssessmentCommponents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assesment cs\AssessmentCommponents.Designer.cs">
+      <DependentUpon>AssessmentCommponents.cs</DependentUpon>
     </Compile>
     <Compile Include="Assesment cs\DeleteAssignment.cs">
       <SubType>Form</SubType>
@@ -98,8 +110,14 @@
     <Compile Include="Assesment cs\ViewAssesment.Designer.cs">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Assesment cs\AddAssComp.resx">
+      <DependentUpon>AddAssComp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\AddAssignment.resx">
       <DependentUpon>AddAssignment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assesment cs\AssessmentCommponents.resx">
+      <DependentUpon>AssessmentCommponents.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\DeleteAssignment.resx">
       <DependentUpon>DeleteAssignment.cs</DependentUpon>

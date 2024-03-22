@@ -1,4 +1,5 @@
-﻿using Assignment.Global_Function;
+﻿using Assignment.Assesment_cs;
+using Assignment.Global_Function;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -89,6 +90,13 @@ namespace Assignment
             this.Hide();
             LandingPage land = new LandingPage();
             land.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AssessmentCommponents assessmentCommponents = new AssessmentCommponents();
+            assessmentCommponents.Show();
         }
     }
 }

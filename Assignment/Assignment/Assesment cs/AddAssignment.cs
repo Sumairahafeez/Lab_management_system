@@ -34,7 +34,7 @@ namespace Assignment
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
                 cmd.Parameters.AddWithValue("@Title", maskedTextBox1.Text);
-                cmd.Parameters.AddWithValue("@DateCreated", DateTime.Parse(maskedTextBox2.Text));
+                cmd.Parameters.AddWithValue("@DateCreated", DateTime.Parse(dateTimePicker1.Text));
                 cmd.Parameters.AddWithValue("@TotalMarks",int.Parse(maskedTextBox3.Text));
                 cmd.Parameters.AddWithValue("@TotalWeightage",int.Parse(maskedTextBox4.Text));
                 try
