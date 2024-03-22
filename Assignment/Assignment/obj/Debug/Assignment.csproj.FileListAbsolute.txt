@@ -57,3 +57,9 @@ C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj
 C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.VIEW.resources
 >>>>>>> 5fd9ff22a2aee1168d86ba0f1d74085d7a75c415
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.UpdateAssComp.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.AddAssComp.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.AssessmentCommponents.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.UpdateAssComp.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.MainSTD.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.test2.Form1.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.test.Form1.resources

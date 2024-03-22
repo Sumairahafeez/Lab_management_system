@@ -53,12 +53,6 @@
     <Compile Include="Assesment cs\AddAssComp.Designer.cs">
       <DependentUpon>AddAssComp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Assesment cs\AddAssignment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Assesment cs\AddAssignment.Designer.cs">
-      <DependentUpon>AddAssignment.cs</DependentUpon>
-    </Compile>
     <Compile Include="Assesment cs\AssessmentCommponents.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +110,36 @@
     <Compile Include="Assesment cs\ViewAssesment.Designer.cs">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
     </Compile>
+    <Compile Include="STD\ADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\ADD.Designer.cs">
+      <DependentUpon>ADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\DELETE.Designer.cs">
+      <DependentUpon>DELETE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\MainSTD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\MainSTD.Designer.cs">
+      <DependentUpon>MainSTD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\UPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\VIEW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\VIEW.Designer.cs">
+      <DependentUpon>VIEW.cs</DependentUpon>
+    </Compile>
     <Compile Include="test2\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,9 +154,6 @@
     </Compile>
     <EmbeddedResource Include="Assesment cs\AddAssComp.resx">
       <DependentUpon>AddAssComp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Assesment cs\AddAssignment.resx">
-      <DependentUpon>AddAssignment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\AssessmentCommponents.resx">
       <DependentUpon>AssessmentCommponents.cs</DependentUpon>
@@ -169,6 +190,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\ViewAssesment.resx">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\ADD.resx">
+      <DependentUpon>ADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\DELETE.resx">
+      <DependentUpon>DELETE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\MainSTD.resx">
+      <DependentUpon>MainSTD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\UPDATE.resx">
+      <DependentUpon>UPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\VIEW.resx">
+      <DependentUpon>VIEW.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="test2\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

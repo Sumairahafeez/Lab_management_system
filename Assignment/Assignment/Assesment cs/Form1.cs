@@ -24,8 +24,8 @@ namespace Assignment
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            AddAssignment addAssignment = new AddAssignment();
-            addAssignment.Show();
+            //AddAssignment addAssignment = new AddAssignment();
+            //addAssignment.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

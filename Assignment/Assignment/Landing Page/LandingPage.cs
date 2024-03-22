@@ -34,8 +34,8 @@ namespace Assignment
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-             main = new Main();
-            main.ShowDialog();
+            MainSTD mainSTD = new MainSTD();
+            mainSTD.ShowDialog();
         }
     }
 }
