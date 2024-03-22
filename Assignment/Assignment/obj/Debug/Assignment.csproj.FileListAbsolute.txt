@@ -14,6 +14,7 @@ F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assi
 F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assignment.Rubrics.AddRubrics.resources
 F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assignment.Rubrics.MainRubrics.resources
 F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assignment.LandingPage.resources
+<<<<<<< HEAD
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\bin\Debug\Assignment.exe
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\bin\Debug\Assignment.pdb
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
@@ -32,3 +33,27 @@ F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assign
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.exe
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.pdb
+=======
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.AddAssignment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.DeleteAssignment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Form1.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.LandingPage.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.AddRubrics.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.MainRubrics.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.UpdateAssignment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.ViewAssesment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.Main.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.ADD.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.DELETE.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.UPDATE.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.VIEW.resources
+>>>>>>> 5fd9ff22a2aee1168d86ba0f1d74085d7a75c415
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.UpdateAssComp.resources

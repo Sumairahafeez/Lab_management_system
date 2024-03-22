@@ -1,4 +1,5 @@
 ﻿using Assignment.Rubrics;
+using Assignment.STD;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,8 +34,8 @@ namespace Assignment
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //StudentMenu.Form1 form = new StudentMenu.Form1();
-            //form.Show();
+            Main main = new Main();
+            main.ShowDialog();
         }
     }
 }

@@ -77,6 +77,12 @@
     <Compile Include="Assesment cs\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Assesment cs\UpdateAssComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assesment cs\UpdateAssComp.Designer.cs">
+      <DependentUpon>UpdateAssComp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global Function\CRUDQueries.cs" />
     <Compile Include="Landing Page\LandingPage.cs">
       <SubType>Form</SubType>
@@ -124,6 +130,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assesment cs\UpdateAssComp.resx">
+      <DependentUpon>UpdateAssComp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Landing Page\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
