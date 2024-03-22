@@ -116,6 +116,12 @@
     <Compile Include="Assesment cs\ViewAssesment.Designer.cs">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
     </Compile>
+    <Compile Include="test\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Assesment cs\AddAssComp.resx">
       <DependentUpon>AddAssComp.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\ViewAssesment.resx">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
