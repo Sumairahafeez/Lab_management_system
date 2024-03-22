@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment.STD
+namespace Assignment
 {
-    public partial class DELETE : Form
+    public partial class ADD : Form
     {
-        public DELETE()
+        public ADD()
         {
             InitializeComponent();
         }

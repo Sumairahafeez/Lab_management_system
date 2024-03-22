@@ -34,7 +34,7 @@ namespace Assignment
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Main main = new Main();
+             main = new Main();
             main.ShowDialog();
         }
     }

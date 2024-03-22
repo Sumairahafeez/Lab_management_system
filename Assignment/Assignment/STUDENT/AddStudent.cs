@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment.STD
+namespace Assignment.STUDENT
 {
-    public partial class VIEW : Form
+    public partial class AddStudent : Form
     {
-        public VIEW()
+        public AddStudent()
         {
             InitializeComponent();
         }
