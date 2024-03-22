@@ -98,6 +98,36 @@
     <Compile Include="Assesment cs\ViewAssesment.Designer.cs">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
     </Compile>
+    <Compile Include="STD\ADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\ADD.Designer.cs">
+      <DependentUpon>ADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\DELETE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\DELETE.Designer.cs">
+      <DependentUpon>DELETE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\UPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\UPDATE.Designer.cs">
+      <DependentUpon>UPDATE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STD\VIEW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="STD\VIEW.Designer.cs">
+      <DependentUpon>VIEW.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Assesment cs\AddAssignment.resx">
       <DependentUpon>AddAssignment.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +160,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\ViewAssesment.resx">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\ADD.resx">
+      <DependentUpon>ADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\DELETE.resx">
+      <DependentUpon>DELETE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\UPDATE.resx">
+      <DependentUpon>UPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STD\VIEW.resx">
+      <DependentUpon>VIEW.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

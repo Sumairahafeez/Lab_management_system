@@ -14,3 +14,24 @@ F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assi
 F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assignment.Rubrics.AddRubrics.resources
 F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assignment.Rubrics.MainRubrics.resources
 F:\2nd semester\DB Lab\Mids Project\project\Assignment\Assignment\obj\Debug\Assignment.LandingPage.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.AddAssignment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.DeleteAssignment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Form1.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.LandingPage.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.AddRubrics.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.MainRubrics.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.UpdateAssignment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.ViewAssesment.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.pdb
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.Main.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.ADD.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.DELETE.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.UPDATE.resources
+C:\Users\Mr Saim\Desktop\PROJECT\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.VIEW.resources
