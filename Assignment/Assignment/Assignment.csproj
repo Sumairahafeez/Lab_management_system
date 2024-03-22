@@ -47,17 +47,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assesment cs\AddAssComp.cs">
+    <Compile Include="AssComponents\AddAssComp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assesment cs\AddAssComp.Designer.cs">
+    <Compile Include="AssComponents\AddAssComp.Designer.cs">
       <DependentUpon>AddAssComp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Assesment cs\AssessmentCommponents.cs">
+    <Compile Include="AssComponents\AssessmentCommponents.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assesment cs\AssessmentCommponents.Designer.cs">
+    <Compile Include="AssComponents\AssessmentCommponents.Designer.cs">
       <DependentUpon>AssessmentCommponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssComponents\DeleteAssComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssComponents\DeleteAssComp.Designer.cs">
+      <DependentUpon>DeleteAssComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssComponents\UpdateAssComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssComponents\UpdateAssComp.Designer.cs">
+      <DependentUpon>UpdateAssComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssComponents\ViewAssComp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssComponents\ViewAssComp.Designer.cs">
+      <DependentUpon>ViewAssComp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assesment cs\AddAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assesment cs\AddAssessment.Designer.cs">
+      <DependentUpon>AddAssessment.cs</DependentUpon>
     </Compile>
     <Compile Include="Assesment cs\DeleteAssignment.cs">
       <SubType>Form</SubType>
@@ -70,12 +94,6 @@
     </Compile>
     <Compile Include="Assesment cs\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Assesment cs\UpdateAssComp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Assesment cs\UpdateAssComp.Designer.cs">
-      <DependentUpon>UpdateAssComp.cs</DependentUpon>
     </Compile>
     <Compile Include="Global Function\CRUDQueries.cs" />
     <Compile Include="Landing Page\LandingPage.cs">
@@ -140,32 +158,29 @@
     <Compile Include="STD\VIEW.Designer.cs">
       <DependentUpon>VIEW.cs</DependentUpon>
     </Compile>
-    <Compile Include="test2\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="test2\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="test\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="test\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Assesment cs\AddAssComp.resx">
+    <EmbeddedResource Include="AssComponents\AddAssComp.resx">
       <DependentUpon>AddAssComp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Assesment cs\AssessmentCommponents.resx">
+    <EmbeddedResource Include="AssComponents\AssessmentCommponents.resx">
       <DependentUpon>AssessmentCommponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssComponents\DeleteAssComp.resx">
+      <DependentUpon>DeleteAssComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssComponents\UpdateAssComp.resx">
+      <DependentUpon>UpdateAssComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssComponents\ViewAssComp.resx">
+      <DependentUpon>ViewAssComp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assesment cs\AddAssessment.resx">
+      <DependentUpon>AddAssessment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\DeleteAssignment.resx">
       <DependentUpon>DeleteAssignment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Assesment cs\UpdateAssComp.resx">
-      <DependentUpon>UpdateAssComp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Landing Page\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
@@ -205,12 +220,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="STD\VIEW.resx">
       <DependentUpon>VIEW.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="test2\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="test\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

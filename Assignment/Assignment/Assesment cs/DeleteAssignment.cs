@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment.Global_Function;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,23 +21,24 @@ namespace Assignment
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string connectionString = "server= localhost\\SQLEXPRESS01; database= ProjectB; trusted_connection= true";
-            string query = "SELECT * FROM Assessment WHERE Title = @Title";
-            using (SqlConnection conConn = new SqlConnection(connectionString))
+           // string connectionString = "server= localhost\\SQLEXPRESS01; database= ProjectB; trusted_connection= true";
+            string query = "SELECT * FROM Assessment WHERE Id = @ID";
+            using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
             {
 
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
-                cmd.Parameters.AddWithValue("@Title", maskedTextBox1.Text);
+                cmd.Parameters.AddWithValue("@ID", int.Parse(richTextBox9.Text));
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    maskedTextBox2.Text = reader["DateCreated"].ToString();
-                    maskedTextBox3.Text = reader["TotalMarks"].ToString();
-                    maskedTextBox4.Text = reader["TotalWeightage"].ToString();
-                    maskedTextBox2.Show();
-                    maskedTextBox3.Show();
-                    maskedTextBox4.Show();
+                    richTextBox8.Text = reader["Title"].ToString();
+                    dateTimePicker1.Text = reader["DateCreated"].ToString();
+                    richTextBox4.Text = reader["TotalMarks"].ToString();
+                    richTextBox5.Text = reader["TotalWeightage"].ToString();
+                    richTextBox8.Show();
+                    richTextBox4.Show();
+                    richTextBox5.Show();
                 }
 
             }
@@ -45,13 +47,13 @@ namespace Assignment
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string connectionString = "server= localhost\\SQLEXPRESS01; database= ProjectB; trusted_connection= true";
-            string query = "DELETE  FROM Assessment WHERE Title = @Title";
-            using(SqlConnection con = new SqlConnection(connectionString))
+           
+            string query = "DELETE  FROM Assessment WHERE Id = @ID";
+            using(SqlConnection con = new SqlConnection(CRUDQueries.connectionString))
             {
                 SqlCommand cmd = new SqlCommand(query, con);
                 con.Open();
-                cmd.Parameters.AddWithValue("@Title", maskedTextBox1.Text);
+                cmd.Parameters.AddWithValue("@ID", richTextBox9.Text);
                 try 
                 {
                     cmd.ExecuteNonQuery();
@@ -68,23 +70,34 @@ namespace Assignment
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            //AddAssignment addAssignment = new AddAssignment();
-            //addAssignment.Show();
+            CRUDQueries.ShowAddAssignment(this);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UpdateAssignment updateAssignment = new UpdateAssignment();
-            updateAssignment.Show();
+            CRUDQueries.ShowUpdateAssignment(this);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssesment form = new ViewAssesment();
-            form.Show();
+            CRUDQueries.ShowViewAssignment(this);
+        }
+
+        private void maskedTextBox4_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CRUDQueries.ShowAssessmentMainPage(this);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Assessment";
+            DataTable dt = CRUDQueries.ShowDataInTables(query);
+            dgb1.DataSource = dt;
         }
     }
 }

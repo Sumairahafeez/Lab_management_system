@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment.Global_Function;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,11 +21,11 @@ namespace Assignment.STD
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            //string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
             try
             {
-                string query = "SELECT * FROM Students WHERE ID = @ID";
-                using (SqlConnection conConn = new SqlConnection(URL_of_connection))
+                string query = "SELECT * FROM Student WHERE ID = @ID";
+                using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
                 {
 
                     SqlCommand cmd = new SqlCommand(query, conConn);
@@ -57,12 +58,12 @@ namespace Assignment.STD
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
-            SqlConnection sqlConnection = new SqlConnection(connection);
+            //string connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(CRUDQueries.connectionString);
             sqlConnection.Open();
             try
             {
-                string query = "Delete from Students where Id=@Id";
+                string query = "Delete from Student where Id=@Id";
                 SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                 sqlCommand.Parameters.AddWithValue("@Id", int.Parse(maskedTextBox1.Text));
                 try
@@ -104,6 +105,13 @@ namespace Assignment.STD
             this.Hide();
             UPDATE uPDATE = new UPDATE();
             uPDATE.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VIEW view = new VIEW();
+            view.Show();
         }
     }
 }

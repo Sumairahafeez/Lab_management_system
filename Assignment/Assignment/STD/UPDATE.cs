@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment.Global_Function;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,11 +21,11 @@ namespace Assignment.STD
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            //string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
             try
             {
-                string query = "SELECT * FROM Students WHERE ID = @ID";
-                using (SqlConnection conConn = new SqlConnection(URL_of_connection))
+                string query = "SELECT * FROM Student WHERE ID = @ID";
+                using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
                 {
 
                     SqlCommand cmd = new SqlCommand(query, conConn);
@@ -56,12 +57,12 @@ namespace Assignment.STD
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string url_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
-            SqlConnection sqlConnection = new SqlConnection(url_connection);
+            //string url_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(CRUDQueries.connectionString);
             sqlConnection.Open();
             try
             {
-                string query = "Update Students Set FirstName=@FirstName,LastName=@LastName,Contact=@Contact,Email=@Email,RegistrationNumber=@RegistrationNumber,Status=@Status where Id=@Id";
+                string query = "Update Student Set FirstName=@FirstName,LastName=@LastName,Contact=@Contact,Email=@Email,RegistrationNumber=@RegistrationNumber,Status=@Status where Id=@Id";
                 SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                 sqlCommand.Parameters.AddWithValue("@ID", maskedTextBox1.Text);
                 sqlCommand.Parameters.AddWithValue("@FirstName", maskedTextBox2.Text);
@@ -109,6 +110,13 @@ namespace Assignment.STD
             this.Hide();
             MainSTD mainSTD = new MainSTD();
             mainSTD.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VIEW view = new VIEW();
+            view.Show();
         }
     }
 }

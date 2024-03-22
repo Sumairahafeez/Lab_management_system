@@ -14,7 +14,7 @@ namespace Assignment
 {
     public partial class ViewAssesment : Form
     {
-        public static Form1 firstPage = new Form1();
+        
         public ViewAssesment()
         {
             InitializeComponent();
@@ -31,41 +31,43 @@ namespace Assignment
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string connectionString = "server= localhost\\SQLEXPRESS01; database= ProjectB; trusted_connection= true";
-            string query = "SELECT * FROM Assessment WHERE Title = @Title";
-            using (SqlConnection conConn = new SqlConnection(connectionString))
+            string query = "SELECT * FROM Assessment WHERE Id = @ID";
+            using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
             {
 
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
-                cmd.Parameters.AddWithValue("@Title", maskedTextBox1.Text);
+                cmd.Parameters.AddWithValue("@ID", int.Parse(richTextBox9.Text));
                 try
                 {
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        maskedTextBox2.Text = reader["DateCreated"].ToString();
-                        maskedTextBox3.Text = reader["TotalMarks"].ToString();
-                        maskedTextBox4.Text = reader["TotalWeightage"].ToString();
-                        maskedTextBox2.Show();
-                        maskedTextBox3.Show();
-                        maskedTextBox4.Show();
+                        richTextBox4.Text = reader["Title"].ToString();
+                        dateTimePicker1.Text = reader["DateCreated"].ToString();
+                        richTextBox5.Text = reader["TotalMarks"].ToString();
+                        richTextBox8.Text = reader["TotalWeightage"].ToString();
+                        richTextBox5.Show();
+                        richTextBox8.Show();
+                        richTextBox4.Show();
                     }
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
-                
-                
+               
 
             }
+
+
+
         }
+        
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            firstPage.Show();
+           CRUDQueries.ShowAssessmentMainPage(this);
         }
     }
 }

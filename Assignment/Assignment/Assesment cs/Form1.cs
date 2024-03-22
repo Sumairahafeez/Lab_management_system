@@ -23,29 +23,21 @@ namespace Assignment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            //AddAssignment addAssignment = new AddAssignment();
-            //addAssignment.Show();
+           CRUDQueries.ShowAddAssignment(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UpdateAssignment updateAssignment = new UpdateAssignment();
-            updateAssignment.Show();
+            CRUDQueries.ShowUpdateAssignment(this);
         }
 
         private void button3_Click(object sender, EventArgs e)
-        {   this.Hide();
-            DeleteAssignment deleteAssignment = new DeleteAssignment();
-            deleteAssignment.Show();
+        {   CRUDQueries.ShowDeleteAssignment(this);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssesment viewAssesment = new ViewAssesment();
-            viewAssesment.Show();
+           CRUDQueries.ShowViewAssignment(this);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -53,22 +45,9 @@ namespace Assignment
             
            
             string query = "SELECT * FROM Assessment";
-            /*DataTable d1 = new DataTable();
-            using (SqlConnection con = new SqlConnection(connectionString))
-            {
-                SqlCommand cmd = new SqlCommand(query, con);
-                con.Open();
-                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                
-                adapter.Fill(d1);
-                dataGridView1.DataSource = d1;   
-
-            }*/
             DataTable d1 = new DataTable();
             d1 = CRUDQueries.ShowDataInTables(query);
             dataGridView1.DataSource = d1;
-            
-            
             chart1.DataSource = d1;
             chart1.Series.Clear();
             Series series = chart1.Series.Add("Assessments");
@@ -87,16 +66,12 @@ namespace Assignment
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            LandingPage land = new LandingPage();
-            land.Show();
+            CRUDQueries.ShowLandingPage(this);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AssessmentCommponents assessmentCommponents = new AssessmentCommponents();
-            assessmentCommponents.Show();
+            CRUDQueries.ShowAssCompMainPage(this);
         }
     }
 }

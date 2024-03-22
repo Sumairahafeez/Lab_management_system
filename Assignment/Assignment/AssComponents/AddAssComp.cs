@@ -1,4 +1,5 @@
-﻿using Assignment.Global_Function;
+﻿using Assignment.AssComponents;
+using Assignment.Global_Function;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,12 +27,16 @@ namespace Assignment.Assesment_cs
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            DeleteAssComp delete = new DeleteAssComp();
+            delete.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            UpdateAssComp update = new UpdateAssComp();
+            update.Show();
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -95,6 +100,20 @@ namespace Assignment.Assesment_cs
         private void button5_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ViewAssComp view = new ViewAssComp();
+            view.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form = new Form1();
+            form.Show();
         }
     }
 }

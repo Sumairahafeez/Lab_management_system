@@ -63,3 +63,11 @@ C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj
 C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.MainSTD.resources
 C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.test2.Form1.resources
 C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.test.Form1.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.AssComponents.DeleteAssComp.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.AssComponents.ViewAssComp.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.ADD.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.DELETE.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.MainSTD.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.UPDATE.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.VIEW.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.AddAssessment.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment.Global_Function;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,8 +22,8 @@ namespace Assignment.STD
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
-            SqlConnection sqlConnection = new SqlConnection(URL_of_connection);
+           // string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(CRUDQueries.connectionString);
             try
             {
                 sqlConnection.Open();
@@ -31,7 +32,7 @@ namespace Assignment.STD
             {
                 MessageBox.Show(ex.Message);
             }
-            string Query = "Insert into Students values(@FirstName,@LastName,@Contact,@Email,@RegistrationNumber,@Status)";
+            string Query = "Insert into Student values(@FirstName,@LastName,@Contact,@Email,@RegistrationNumber,@Status)";
             SqlCommand cmd = new SqlCommand(Query, sqlConnection);
             cmd.Parameters.AddWithValue("@FirstName", textBox16.Text);
             cmd.Parameters.AddWithValue("@LastName", textBox1.Text);
@@ -98,6 +99,13 @@ namespace Assignment.STD
             this.Hide();
             UPDATE uPDATE = new UPDATE();
             uPDATE.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VIEW view = new VIEW();
+            view.Show();
         }
     }
 }

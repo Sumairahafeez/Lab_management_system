@@ -31,19 +31,21 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewAssesment));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.dgb1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgb1)).BeginInit();
             this.SuspendLayout();
@@ -53,7 +55,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-3, -2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1305, 241);
+            this.pictureBox1.Size = new System.Drawing.Size(1375, 241);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
@@ -72,90 +74,14 @@
             this.textBox2.Text = "VIEW ASSIGNMENT";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.MidnightBlue;
-            this.textBox3.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.MistyRose;
-            this.textBox3.Location = new System.Drawing.Point(210, 305);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 25);
-            this.textBox3.TabIndex = 8;
-            this.textBox3.Text = "Title";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.MidnightBlue;
-            this.textBox4.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.MistyRose;
-            this.textBox4.Location = new System.Drawing.Point(210, 349);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(125, 25);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "Date Created";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.MidnightBlue;
-            this.textBox5.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.MistyRose;
-            this.textBox5.Location = new System.Drawing.Point(210, 396);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(125, 25);
-            this.textBox5.TabIndex = 12;
-            this.textBox5.Text = "Total marks";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.MidnightBlue;
-            this.textBox6.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.MistyRose;
-            this.textBox6.Location = new System.Drawing.Point(210, 443);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(125, 25);
-            this.textBox6.TabIndex = 13;
-            this.textBox6.Text = "Total weightage";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(387, 305);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(241, 20);
-            this.maskedTextBox1.TabIndex = 14;
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(387, 354);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(241, 20);
-            this.maskedTextBox2.TabIndex = 15;
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(387, 396);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(241, 20);
-            this.maskedTextBox3.TabIndex = 16;
-            // 
-            // maskedTextBox4
-            // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(387, 443);
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(241, 20);
-            this.maskedTextBox4.TabIndex = 17;
-            // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.MidnightBlue;
             this.button3.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.MistyRose;
-            this.button3.Location = new System.Drawing.Point(647, 292);
+            this.button3.Location = new System.Drawing.Point(413, 348);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(106, 38);
+            this.button3.Size = new System.Drawing.Size(141, 27);
             this.button3.TabIndex = 19;
             this.button3.Text = "CHECK";
             this.button3.UseVisualStyleBackColor = false;
@@ -166,9 +92,9 @@
             this.button2.BackColor = System.Drawing.Color.MidnightBlue;
             this.button2.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.MistyRose;
-            this.button2.Location = new System.Drawing.Point(458, 489);
+            this.button2.Location = new System.Drawing.Point(413, 644);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(130, 33);
+            this.button2.Size = new System.Drawing.Size(141, 52);
             this.button2.TabIndex = 20;
             this.button2.Text = "EXIT";
             this.button2.UseVisualStyleBackColor = false;
@@ -178,9 +104,9 @@
             // 
             this.dgb1.BackgroundColor = System.Drawing.Color.MidnightBlue;
             this.dgb1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgb1.Location = new System.Drawing.Point(780, 292);
+            this.dgb1.Location = new System.Drawing.Point(808, 331);
             this.dgb1.Name = "dgb1";
-            this.dgb1.Size = new System.Drawing.Size(510, 221);
+            this.dgb1.Size = new System.Drawing.Size(510, 266);
             this.dgb1.TabIndex = 22;
             // 
             // button1
@@ -188,9 +114,9 @@
             this.button1.BackColor = System.Drawing.Color.MidnightBlue;
             this.button1.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.MistyRose;
-            this.button1.Location = new System.Drawing.Point(961, 245);
+            this.button1.Location = new System.Drawing.Point(962, 265);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 41);
+            this.button1.Size = new System.Drawing.Size(163, 60);
             this.button1.TabIndex = 24;
             this.button1.Text = "SHOW DATA";
             this.button1.UseVisualStyleBackColor = false;
@@ -209,24 +135,120 @@
             this.textBox1.TabIndex = 25;
             this.textBox1.Text = " ASSESSMENT MANAGEMENT SYSTEM";
             // 
+            // richTextBox6
+            // 
+            this.richTextBox6.BackColor = System.Drawing.Color.MidnightBlue;
+            this.richTextBox6.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox6.ForeColor = System.Drawing.Color.MistyRose;
+            this.richTextBox6.Location = new System.Drawing.Point(210, 312);
+            this.richTextBox6.Name = "richTextBox6";
+            this.richTextBox6.Size = new System.Drawing.Size(188, 35);
+            this.richTextBox6.TabIndex = 60;
+            this.richTextBox6.Text = "ID";
+            // 
+            // richTextBox9
+            // 
+            this.richTextBox9.Location = new System.Drawing.Point(413, 312);
+            this.richTextBox9.Name = "richTextBox9";
+            this.richTextBox9.Size = new System.Drawing.Size(272, 30);
+            this.richTextBox9.TabIndex = 65;
+            this.richTextBox9.Text = "";
+            // 
+            // richTextBox7
+            // 
+            this.richTextBox7.BackColor = System.Drawing.Color.MidnightBlue;
+            this.richTextBox7.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox7.ForeColor = System.Drawing.Color.MistyRose;
+            this.richTextBox7.Location = new System.Drawing.Point(210, 381);
+            this.richTextBox7.Name = "richTextBox7";
+            this.richTextBox7.Size = new System.Drawing.Size(188, 35);
+            this.richTextBox7.TabIndex = 66;
+            this.richTextBox7.Text = "Title";
+            // 
+            // richTextBox2
+            // 
+            this.richTextBox2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.richTextBox2.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox2.ForeColor = System.Drawing.Color.MistyRose;
+            this.richTextBox2.Location = new System.Drawing.Point(210, 450);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(188, 35);
+            this.richTextBox2.TabIndex = 67;
+            this.richTextBox2.Text = "Date Created";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.richTextBox1.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox1.ForeColor = System.Drawing.Color.MistyRose;
+            this.richTextBox1.Location = new System.Drawing.Point(210, 522);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(188, 35);
+            this.richTextBox1.TabIndex = 68;
+            this.richTextBox1.Text = "Total Marks";
+            // 
+            // richTextBox3
+            // 
+            this.richTextBox3.BackColor = System.Drawing.Color.MidnightBlue;
+            this.richTextBox3.Font = new System.Drawing.Font("Imprint MT Shadow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.richTextBox3.ForeColor = System.Drawing.Color.MistyRose;
+            this.richTextBox3.Location = new System.Drawing.Point(210, 595);
+            this.richTextBox3.Name = "richTextBox3";
+            this.richTextBox3.Size = new System.Drawing.Size(188, 35);
+            this.richTextBox3.TabIndex = 69;
+            this.richTextBox3.Text = "Total Weightage";
+            // 
+            // richTextBox4
+            // 
+            this.richTextBox4.Location = new System.Drawing.Point(413, 386);
+            this.richTextBox4.Name = "richTextBox4";
+            this.richTextBox4.Size = new System.Drawing.Size(272, 30);
+            this.richTextBox4.TabIndex = 70;
+            this.richTextBox4.Text = "";
+            // 
+            // richTextBox5
+            // 
+            this.richTextBox5.Location = new System.Drawing.Point(413, 522);
+            this.richTextBox5.Name = "richTextBox5";
+            this.richTextBox5.Size = new System.Drawing.Size(272, 30);
+            this.richTextBox5.TabIndex = 71;
+            this.richTextBox5.Text = "";
+            // 
+            // richTextBox8
+            // 
+            this.richTextBox8.Location = new System.Drawing.Point(413, 595);
+            this.richTextBox8.Name = "richTextBox8";
+            this.richTextBox8.Size = new System.Drawing.Size(272, 30);
+            this.richTextBox8.TabIndex = 72;
+            this.richTextBox8.Text = "";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(413, 458);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(272, 20);
+            this.dateTimePicker1.TabIndex = 73;
+            // 
             // ViewAssesment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1302, 651);
+            this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.richTextBox8);
+            this.Controls.Add(this.richTextBox5);
+            this.Controls.Add(this.richTextBox4);
+            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBox2);
+            this.Controls.Add(this.richTextBox7);
+            this.Controls.Add(this.richTextBox9);
+            this.Controls.Add(this.richTextBox6);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgb1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.maskedTextBox4);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pictureBox1);
             this.Name = "ViewAssesment";
@@ -242,18 +264,20 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dgb1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.RichTextBox richTextBox9;
+        private System.Windows.Forms.RichTextBox richTextBox7;
+        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox richTextBox3;
+        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.RichTextBox richTextBox5;
+        private System.Windows.Forms.RichTextBox richTextBox8;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

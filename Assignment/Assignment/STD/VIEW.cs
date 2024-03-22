@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Assignment.Global_Function;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,11 +21,11 @@ namespace Assignment.STD
 
         private void button7_Click(object sender, EventArgs e)
         {
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            //string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
             try
             {
-                string query = "SELECT * FROM Students WHERE ID = @ID";
-                using (SqlConnection conConn = new SqlConnection(URL_of_connection))
+                string query = "SELECT * FROM Student WHERE ID = @ID";
+                using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
                 {
 
                     SqlCommand cmd = new SqlCommand(query, conConn);
@@ -56,11 +57,11 @@ namespace Assignment.STD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+           // string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
             try
             {
-                string query = "SELECT * FROM Students";
-                using (SqlConnection con = new SqlConnection(URL_of_connection))
+                string query = "SELECT * FROM Student";
+                using (SqlConnection con = new SqlConnection(CRUDQueries.connectionString))
                 {
                     SqlCommand cmd = new SqlCommand(query, con);
                     con.Open();
@@ -79,8 +80,8 @@ namespace Assignment.STD
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainSTD mainSTD = new MainSTD();
-            mainSTD.Show();
+           LandingPage lp = new LandingPage();
+            lp.Show();
         }
     }
 }
