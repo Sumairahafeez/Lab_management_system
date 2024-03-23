@@ -71,3 +71,6 @@ F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assign
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.UPDATE.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.STD.VIEW.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.AddAssessment.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.DeleteRubrics.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.UpdateRubrics.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.ViewRubrics.resources

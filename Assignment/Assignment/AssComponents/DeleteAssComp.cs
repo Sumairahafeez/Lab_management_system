@@ -30,21 +30,24 @@ namespace Assignment.AssComponents
             string query = "SELECT * FROM AssessmentComponent";
             DataTable dt = new DataTable();
             dt = CRUDQueries.ShowDataInTables(query);
-            dataGridView1.DataSource = dt;
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AddAssComp add = new AddAssComp();
-            add.Show();
+            CRUDQueries.ShowAddAssComp(this);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UpdateAssComp update = new UpdateAssComp();
-            update.Show();
+            CRUDQueries.ShowUpdateAssComp(this);
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
@@ -75,16 +78,12 @@ namespace Assignment.AssComponents
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssComp view = new ViewAssComp();
-            view.Show();
+            CRUDQueries.ShowViewAssComp(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 form = new Form1();
-            form.Show();
+           CRUDQueries.ShowAssessmentMainPage(this);
         }
     }
 }

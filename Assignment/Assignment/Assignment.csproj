@@ -110,6 +110,12 @@
     <Compile Include="Rubrics\AddRubrics.Designer.cs">
       <DependentUpon>AddRubrics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rubrics\DeleteRubrics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubrics\DeleteRubrics.Designer.cs">
+      <DependentUpon>DeleteRubrics.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rubrics\MainRubrics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,18 @@
     </Compile>
     <Compile Include="Assesment cs\ViewAssesment.Designer.cs">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubrics\UpdateRubrics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubrics\UpdateRubrics.Designer.cs">
+      <DependentUpon>UpdateRubrics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rubrics\ViewRubrics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rubrics\ViewRubrics.Designer.cs">
+      <DependentUpon>ViewRubrics.cs</DependentUpon>
     </Compile>
     <Compile Include="STD\ADD.cs">
       <SubType>Form</SubType>
@@ -197,6 +215,9 @@
     <EmbeddedResource Include="Rubrics\AddRubrics.resx">
       <DependentUpon>AddRubrics.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rubrics\DeleteRubrics.resx">
+      <DependentUpon>DeleteRubrics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rubrics\MainRubrics.resx">
       <DependentUpon>MainRubrics.cs</DependentUpon>
     </EmbeddedResource>
@@ -205,6 +226,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\ViewAssesment.resx">
       <DependentUpon>ViewAssesment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubrics\UpdateRubrics.resx">
+      <DependentUpon>UpdateRubrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rubrics\ViewRubrics.resx">
+      <DependentUpon>ViewRubrics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="STD\ADD.resx">
       <DependentUpon>ADD.cs</DependentUpon>

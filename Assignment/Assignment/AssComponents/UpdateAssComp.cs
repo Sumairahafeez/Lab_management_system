@@ -28,7 +28,7 @@ namespace Assignment.Assesment_cs
 
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
-                cmd.Parameters.AddWithValue("@Title", maskedTextBox1.Text);
+                cmd.Parameters.AddWithValue("@Name", maskedTextBox1.Text);
                 try
                 {
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -63,15 +63,15 @@ namespace Assignment.Assesment_cs
                 conConn.Open();
                 SqlCommand cmd = new SqlCommand(query,conConn);
                 cmd.Parameters.AddWithValue("@Name", maskedTextBox1.Text);
-                cmd.Parameters.AddWithValue("@RubricId", maskedTextBox2.Text);
-                cmd.Parameters.AddWithValue("@TotalMarks", maskedTextBox3.Text);
-                cmd.Parameters.AddWithValue("@DateCreated", dateTimePicker1.Text);
-                cmd.Parameters.AddWithValue("@DateUpdated",dateTimePicker2.Text);
-                cmd.Parameters.AddWithValue("@AssessmentId", maskedTextBox6.Text);
+                cmd.Parameters.AddWithValue("@RubricId", int.Parse(maskedTextBox2.Text));
+                cmd.Parameters.AddWithValue("@TotalMarks", int.Parse(maskedTextBox3.Text));
+                cmd.Parameters.AddWithValue("@DateCreated", DateTime.Parse(dateTimePicker1.Text));
+                cmd.Parameters.AddWithValue("@DateUpdated",DateTime.Parse(dateTimePicker2.Text));
+                cmd.Parameters.AddWithValue("@AssessmentId", int.Parse(maskedTextBox6.Text));
                 try
                 {
                     cmd.ExecuteNonQuery();
-                    MessageBox.Show("Message Updated Successfully");
+                    MessageBox.Show("Data Updated Successfully");
                 }
                 catch(Exception ex)
                 {
@@ -86,7 +86,14 @@ namespace Assignment.Assesment_cs
             string query = "SELECT * FROM Assessment";
             DataTable dt = new DataTable();
             dt = CRUDQueries.ShowDataInTables(query);
-            dataGridView1.DataSource = dt;
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -94,35 +101,34 @@ namespace Assignment.Assesment_cs
             string query = "SELECT * FROM Rubric";
             DataTable dt = new DataTable();
             dt = CRUDQueries.ShowDataInTables(query);
-            dataGridView2.DataSource = dt;
+            try
+            {
+                dataGridView2.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssComp view = new ViewAssComp();
-            view.Show();
+            CRUDQueries.ShowViewAssComp(this);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DeleteAssComp del = new DeleteAssComp();
-            del.Show();
+            CRUDQueries.ShowDeleteAssComp(this);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssComp view = new ViewAssComp();
-            view.Show();
+            CRUDQueries.ShowViewAssComp(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 frm = new Form1();
-            frm.Show();
+            CRUDQueries.ShowAssessmentMainPage(this);
         }
     }
 }

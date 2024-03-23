@@ -27,16 +27,13 @@ namespace Assignment.Assesment_cs
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DeleteAssComp delete = new DeleteAssComp();
-            delete.Show();
+            CRUDQueries.ShowDeleteAssComp(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UpdateAssComp update = new UpdateAssComp();
-            update.Show();
+
+            CRUDQueries.ShowUpdateAssComp(this);
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -44,7 +41,15 @@ namespace Assignment.Assesment_cs
             string query = "SELECT * FROM Assessment";
             DataTable dataTable = new DataTable();
             dataTable = CRUDQueries.ShowDataInTables(query);
-            dataGridView1.DataSource = dataTable;
+            try
+            {
+                dataGridView1.DataSource = dataTable;
+            }
+            catch(Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -78,6 +83,7 @@ namespace Assignment.Assesment_cs
                 try
                 {
                     cmd.ExecuteNonQuery();
+                    MessageBox.Show("Data Added Successfully");
                 }
                 catch (Exception ex)
                 {
@@ -104,16 +110,12 @@ namespace Assignment.Assesment_cs
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssComp view = new ViewAssComp();
-            view.Show();
+            CRUDQueries.ShowViewAssComp(this);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 form = new Form1();
-            form.Show();
+            CRUDQueries.ShowAssessmentMainPage(this);
         }
     }
 }

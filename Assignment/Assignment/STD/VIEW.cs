@@ -31,22 +31,30 @@ namespace Assignment.STD
                     SqlCommand cmd = new SqlCommand(query, conConn);
                     conConn.Open();
                     cmd.Parameters.AddWithValue("@ID", maskedTextBox1.Text);
-                    SqlDataReader reader = cmd.ExecuteReader();
-                    while (reader.Read())
+                    try
                     {
-                        maskedTextBox2.Text = reader["FirstName"].ToString();
-                        maskedTextBox3.Text = reader["LastName"].ToString();
-                        maskedTextBox4.Text = reader["Contact"].ToString();
-                        maskedTextBox5.Text = reader["Email"].ToString();
-                        maskedTextBox6.Text = reader["RegistrationNumber"].ToString();
-                        maskedTextBox7.Text = reader["Status"].ToString();
-                        maskedTextBox2.Show();
-                        maskedTextBox3.Show();
-                        maskedTextBox4.Show();
-                        maskedTextBox5.Show();
-                        maskedTextBox6.Show();
-                        maskedTextBox7.Show();
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            maskedTextBox2.Text = reader["FirstName"].ToString();
+                            maskedTextBox3.Text = reader["LastName"].ToString();
+                            maskedTextBox4.Text = reader["Contact"].ToString();
+                            maskedTextBox5.Text = reader["Email"].ToString();
+                            maskedTextBox6.Text = reader["RegistrationNumber"].ToString();
+                            maskedTextBox7.Text = reader["Status"].ToString();
+                            maskedTextBox2.Show();
+                            maskedTextBox3.Show();
+                            maskedTextBox4.Show();
+                            maskedTextBox5.Show();
+                            maskedTextBox6.Show();
+                            maskedTextBox7.Show();
+                        }
                     }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                   
                 }
             }
             catch(Exception ex)
@@ -79,9 +87,7 @@ namespace Assignment.STD
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-           LandingPage lp = new LandingPage();
-            lp.Show();
+            CRUDQueries.ShowLandingPage(this);
         }
     }
 }

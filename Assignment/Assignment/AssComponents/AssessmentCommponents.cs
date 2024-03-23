@@ -31,9 +31,7 @@ namespace Assignment.Assesment_cs
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 form = new Form1();
-            form.Show();
+            CRUDQueries.ShowAssessmentMainPage(this);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -41,7 +39,14 @@ namespace Assignment.Assesment_cs
             string query = "SELECT * FROM Assessment";
             DataTable dataTable = new DataTable();
             dataTable = CRUDQueries.ShowDataInTables(query);
-            dataGridView1.DataSource = dataTable;
+            try
+            {
+                dataGridView1.DataSource = dataTable;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             string query2 = "SELECT * FROM Rubric";
             DataTable dataTable2 = new DataTable();
             dataTable2 = CRUDQueries.ShowDataInTables(query2);
@@ -58,30 +63,22 @@ namespace Assignment.Assesment_cs
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AddAssComp addAssComp = new AddAssComp();
-            addAssComp.Show();
+            CRUDQueries.ShowAddAssComp(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            UpdateAssComp update = new UpdateAssComp();
-            update.Show();
+            CRUDQueries.ShowUpdateAssComp(this);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            DeleteAssComp delete = new DeleteAssComp();
-            delete.Show();
+            CRUDQueries.ShowDeleteAssComp(this);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            ViewAssComp view = new ViewAssComp();
-            view.Show();
+            CRUDQueries.ShowViewAssComp(this);
         }
     }
 }

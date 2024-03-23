@@ -9,6 +9,8 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Runtime.CompilerServices;
 using Assignment.Assesment_cs;
+using Assignment.AssComponents;
+using Assignment.Rubrics;
 
 namespace Assignment.Global_Function
 {
@@ -17,14 +19,22 @@ namespace Assignment.Global_Function
         public static string connectionString = "server= localhost\\SQLEXPRESS01; database= ProjectB; trusted_connection= true";
         public static DataTable ShowDataInTables(string query)
         {
+           
             DataTable db1 = new DataTable();
             using (SqlConnection con = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = new SqlCommand(query, con);
                 con.Open();
-                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                try
+                {
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
 
-                adapter.Fill(db1);
+                    adapter.Fill(db1);
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
                 return db1;
 
             }
@@ -70,6 +80,61 @@ namespace Assignment.Global_Function
             CallingPage.Hide();
             AssessmentCommponents assessmentCommponents = new AssessmentCommponents();
             assessmentCommponents.Show();
+        }
+        public static void ShowAddAssComp(Form CallingPage)
+        {
+            CallingPage.Hide();
+            AddAssComp addAssComp = new AddAssComp();
+            addAssComp.Show();
+        }
+        public static void ShowUpdateAssComp(Form CallingPage)
+        {
+            CallingPage.Hide();
+            UpdateAssComp updateAssComp = new UpdateAssComp();
+            updateAssComp.Show();
+        }
+        public static void ShowDeleteAssComp(Form CallingPage)
+        {
+            CallingPage.Hide();
+            DeleteAssComp del  = new DeleteAssComp();
+            del.Show();
+        }
+        public static void ShowViewAssComp(Form CallingPage)
+        {
+            CallingPage.Hide();
+            ViewAssComp viewAssComp = new ViewAssComp();
+            viewAssComp.Show();
+        }
+        public static void ShowAddRubrics(Form CallingPage)
+
+        {
+            CallingPage.Hide();
+            AddRubrics add = new AddRubrics();
+            add.Show();
+        }
+        public static void ShowUpdateRubrics(Form CallingPage)
+        {
+            CallingPage.Hide();
+            UpdateRubrics updateRubrics = new UpdateRubrics();
+            updateRubrics.Show();
+        }
+        public static void ShowDeleteRubrics(Form CallingPage)
+        {
+            CallingPage.Hide();
+            DeleteRubrics deleteRubrics = new DeleteRubrics();
+            deleteRubrics.Show();
+        }
+        public static void ShowViewRubrics(Form CallingPage)
+        {
+            CallingPage.Hide();
+            ViewRubrics viewRubrics = new ViewRubrics();
+            viewRubrics.Show();
+        }
+        public static void ShowMainRubrics(Form CallingPage)
+        {
+            CallingPage.Hide();
+            MainRubrics mainRubrics = new MainRubrics();
+            mainRubrics.Show();
         }
     }
 }

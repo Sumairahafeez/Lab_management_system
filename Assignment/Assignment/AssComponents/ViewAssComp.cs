@@ -36,21 +36,25 @@ namespace Assignment.AssComponents
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string query = "UPDATE AssessmentComponent SET Name = @Name, RubricId = @RubricId, TotalMarks = @TotalMarks, DateCreated = @DateCreated, AssessmentId = @AssessmentId";
+            string query = "SELECT * FROM AssessmentComponent WHERE Id = @ID";
             using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
             {
                 conConn.Open();
                 SqlCommand cmd = new SqlCommand(query, conConn);
-                cmd.Parameters.AddWithValue("@Name", richTextBox1.Text);
-                cmd.Parameters.AddWithValue("@RubricId", richTextBox2.Text);
-                cmd.Parameters.AddWithValue("@TotalMarks", richTextBox3.Text);
-                cmd.Parameters.AddWithValue("@DateCreated", dateTimePicker1.Text);
-                cmd.Parameters.AddWithValue("@DateUpdated", dateTimePicker2.Text);
-                cmd.Parameters.AddWithValue("@AssessmentId", richTextBox6.Text);
+                cmd.Parameters.AddWithValue("@ID", richTextBox8.Text);
                 try
                 {
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("Message Updated Successfully");
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        richTextBox9.Text = reader["Name"].ToString();
+                        richTextBox10.Text = reader["RubricId"].ToString();
+                        richTextBox11.Text = reader["TotalMarks"].ToString() ;
+                        dateTimePicker1.Text = reader["DateCreated"].ToString();
+                        dateTimePicker2.Text = reader["DateUpdated"].ToString();
+                        richTextBox14.Text = reader["AssessmentId"].ToString();
+                    }
+                    
                 }
                 catch (Exception ex)
                 {
@@ -63,9 +67,7 @@ namespace Assignment.AssComponents
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 assessment = new Form1();
-            assessment.Show();
+            CRUDQueries.ShowAssessmentMainPage(this);
         }
 
         private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
@@ -78,7 +80,20 @@ namespace Assignment.AssComponents
             string query = "SELECT * FROM AssessmentComponent";
             DataTable dt = new DataTable();
             dt = CRUDQueries.ShowDataInTables(query);
-            dataGridView1.DataSource = dt;
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+           
+        }
+
+        private void richTextBox8_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

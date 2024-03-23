@@ -177,6 +177,7 @@
             this.richTextBox8.Size = new System.Drawing.Size(308, 30);
             this.richTextBox8.TabIndex = 44;
             this.richTextBox8.Text = "";
+            this.richTextBox8.TextChanged += new System.EventHandler(this.richTextBox8_TextChanged);
             // 
             // richTextBox9
             // 
@@ -228,7 +229,7 @@
             this.button1.BackColor = System.Drawing.Color.MidnightBlue;
             this.button1.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.MistyRose;
-            this.button1.Location = new System.Drawing.Point(571, 699);
+            this.button1.Location = new System.Drawing.Point(905, 657);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(106, 38);
             this.button1.TabIndex = 52;

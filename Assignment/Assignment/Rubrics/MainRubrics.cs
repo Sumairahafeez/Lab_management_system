@@ -31,27 +31,38 @@ namespace Assignment.Rubrics
             chart1.DataSource = db1;
             chart1.Series.Clear();
             Series series = chart1.Series.Add("Rubrics");
-            series.XValueMember = "RubricId";
+            series.XValueMember = "Id";
             series.YValueMembers = "CloId";
             series.ChartType = SeriesChartType.Column;
             chart1.Titles.Add("Rubrics");
-            chart1.ChartAreas[0].AxisX.Title = "Rubric Id";
+            chart1.ChartAreas[0].AxisX.Title = "Id";
             chart1.ChartAreas[0].AxisY.Title = "CloId";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AddRubrics addRubrics = new AddRubrics();
-            addRubrics.Show();
+            CRUDQueries.ShowAddRubrics(this);
             
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            LandingPage landingPage = new LandingPage();
-            landingPage.Show();
+           CRUDQueries.ShowLandingPage(this);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CRUDQueries.ShowUpdateRubrics(this);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CRUDQueries.ShowDeleteRubrics(this);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CRUDQueries.ShowViewRubrics(this);
         }
     }
 }
