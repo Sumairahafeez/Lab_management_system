@@ -1,4 +1,5 @@
-﻿using Assignment.Global_Function;
+﻿using Assignment.CourseLO;
+using Assignment.Global_Function;
 using Assignment.Rubrics;
 using Assignment.STD;
 using System;
@@ -39,6 +40,12 @@ namespace Assignment
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             CRUDQueries.ShowMainRubricsLevel(this);
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MainCLO mainCLO = new MainCLO();
+            mainCLO.ShowDialog();
         }
     }
 }

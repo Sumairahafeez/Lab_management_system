@@ -79,3 +79,19 @@ F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assign
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.UpdateRubricLevel.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.DeleteRubricLevel.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.ViewRubricLevel.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.AssComponents.DeleteAssComp.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.AssComponents.ViewAssComp.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Assesment_cs.AddAssessment.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.MainCLO.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.AddRubricLevel.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.DeleteRubricLevel.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.MainRubricLevel.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.UpdateRubricLevel.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.ViewRubricLevel.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.DeleteRubrics.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.UpdateRubrics.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.ViewRubrics.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.ADDCLO.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.DELETECLO.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.UPDATECLO.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.VIEWCLO.resources

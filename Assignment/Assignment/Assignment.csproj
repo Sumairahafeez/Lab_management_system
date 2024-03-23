@@ -95,6 +95,36 @@
     <Compile Include="Assesment cs\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="CourseLO\ADDCLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseLO\ADDCLO.Designer.cs">
+      <DependentUpon>ADDCLO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseLO\DELETECLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseLO\DELETECLO.Designer.cs">
+      <DependentUpon>DELETECLO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseLO\MainCLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseLO\MainCLO.Designer.cs">
+      <DependentUpon>MainCLO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseLO\UPDATECLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseLO\UPDATECLO.Designer.cs">
+      <DependentUpon>UPDATECLO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseLO\VIEWCLO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseLO\VIEWCLO.Designer.cs">
+      <DependentUpon>VIEWCLO.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global Function\CRUDQueries.cs" />
     <Compile Include="Landing Page\LandingPage.cs">
       <SubType>Form</SubType>
@@ -229,6 +259,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Assesment cs\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseLO\ADDCLO.resx">
+      <DependentUpon>ADDCLO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseLO\DELETECLO.resx">
+      <DependentUpon>DELETECLO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseLO\MainCLO.resx">
+      <DependentUpon>MainCLO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseLO\UPDATECLO.resx">
+      <DependentUpon>UPDATECLO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseLO\VIEWCLO.resx">
+      <DependentUpon>VIEWCLO.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Landing Page\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
