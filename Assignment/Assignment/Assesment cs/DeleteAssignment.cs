@@ -37,6 +37,7 @@ namespace Assignment
                     richTextBox4.Text = reader["TotalMarks"].ToString();
                     richTextBox5.Text = reader["TotalWeightage"].ToString();
                     richTextBox8.Show();
+                    dateTimePicker1.Show();
                     richTextBox4.Show();
                     richTextBox5.Show();
                 }

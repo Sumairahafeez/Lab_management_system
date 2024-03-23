@@ -35,6 +35,7 @@
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -120,11 +121,27 @@
             this.textBox1.TabIndex = 23;
             this.textBox1.Text = " UNIVERSITY MANAGEMENT SYSTEM";
             // 
+            // linkLabel5
+            // 
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.BackColor = System.Drawing.Color.MidnightBlue;
+            this.linkLabel5.Font = new System.Drawing.Font("Imprint MT Shadow", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel5.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.linkLabel5.LinkColor = System.Drawing.Color.MistyRose;
+            this.linkLabel5.Location = new System.Drawing.Point(597, 320);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(212, 42);
+            this.linkLabel5.TabIndex = 24;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "Rubrics level";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            // 
             // LandingPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1329, 683);
+            this.Controls.Add(this.linkLabel5);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.linkLabel4);
             this.Controls.Add(this.linkLabel3);
@@ -147,5 +164,6 @@
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel linkLabel4;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.LinkLabel linkLabel5;
     }
 }

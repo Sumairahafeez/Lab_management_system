@@ -11,6 +11,7 @@ using System.Runtime.CompilerServices;
 using Assignment.Assesment_cs;
 using Assignment.AssComponents;
 using Assignment.Rubrics;
+using Assignment.RubricLevel;
 
 namespace Assignment.Global_Function
 {
@@ -136,5 +137,36 @@ namespace Assignment.Global_Function
             MainRubrics mainRubrics = new MainRubrics();
             mainRubrics.Show();
         }
+        public static void ShowAddRubricsLevel(Form CallingPage)
+        {
+            CallingPage.Hide();
+            AddRubricLevel add = new AddRubricLevel();
+            add.Show();
+        }
+        public static void ShowMainRubricsLevel(Form CallingPage)
+        {
+            CallingPage.Hide();
+            MainRubricLevel main = new MainRubricLevel();
+            main.Show();
+        }
+        public static void ShowUpdateRubricsLevel(Form CallingPage)
+        {
+            CallingPage.Hide();
+            UpdateRubricLevel update = new UpdateRubricLevel();
+            update.Show();
+        }
+        public static void ShowDeleteRubricsLevel(Form CallingPage)
+        {
+            CallingPage.Hide();
+            DeleteRubricLevel del = new DeleteRubricLevel();
+            del.Show();
+        }
+        public static void ShowViewRubricsLevel(Form CallingPage)
+        {
+            CallingPage.Hide();
+            ViewRubricLevel view = new ViewRubricLevel();
+            view.Show();
+        }
+
     }
 }

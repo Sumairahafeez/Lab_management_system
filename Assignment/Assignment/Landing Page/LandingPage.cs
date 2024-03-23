@@ -1,4 +1,5 @@
-﻿using Assignment.Rubrics;
+﻿using Assignment.Global_Function;
+using Assignment.Rubrics;
 using Assignment.STD;
 using System;
 using System.Collections.Generic;
@@ -21,21 +22,23 @@ namespace Assignment
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            this.Hide();
-            Form1 form = new Form1();
-            form.ShowDialog();
+           CRUDQueries.ShowAssessmentMainPage(this);
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {   this.Hide();
-            MainRubrics rub = new MainRubrics();
-            rub.ShowDialog();
+        {
+            CRUDQueries.ShowMainRubrics(this);
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MainSTD mainSTD = new MainSTD();
             mainSTD.ShowDialog();
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CRUDQueries.ShowMainRubricsLevel(this);
         }
     }
 }

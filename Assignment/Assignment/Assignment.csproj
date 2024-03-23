@@ -104,6 +104,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RubricLevel\AddRubricLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubricLevel\AddRubricLevel.Designer.cs">
+      <DependentUpon>AddRubricLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RubricLevel\DeleteRubricLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubricLevel\DeleteRubricLevel.Designer.cs">
+      <DependentUpon>DeleteRubricLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RubricLevel\MainRubricLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubricLevel\MainRubricLevel.Designer.cs">
+      <DependentUpon>MainRubricLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RubricLevel\UpdateRubricLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubricLevel\UpdateRubricLevel.Designer.cs">
+      <DependentUpon>UpdateRubricLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RubricLevel\ViewRubricLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RubricLevel\ViewRubricLevel.Designer.cs">
+      <DependentUpon>ViewRubricLevel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rubrics\AddRubrics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +242,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RubricLevel\AddRubricLevel.resx">
+      <DependentUpon>AddRubricLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RubricLevel\DeleteRubricLevel.resx">
+      <DependentUpon>DeleteRubricLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RubricLevel\MainRubricLevel.resx">
+      <DependentUpon>MainRubricLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RubricLevel\UpdateRubricLevel.resx">
+      <DependentUpon>UpdateRubricLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RubricLevel\ViewRubricLevel.resx">
+      <DependentUpon>ViewRubricLevel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rubrics\AddRubrics.resx">
       <DependentUpon>AddRubrics.cs</DependentUpon>
     </EmbeddedResource>

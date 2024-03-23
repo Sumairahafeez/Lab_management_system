@@ -74,3 +74,8 @@ F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assign
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.DeleteRubrics.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.UpdateRubrics.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Rubrics.ViewRubrics.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.AddRubricLevel.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.MainRubricLevel.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.UpdateRubricLevel.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.DeleteRubricLevel.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.RubricLevel.ViewRubricLevel.resources

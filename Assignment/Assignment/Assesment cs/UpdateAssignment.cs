@@ -77,6 +77,7 @@ namespace Assignment
                     richTextBox5.Show();
                     richTextBox8.Show();
                     richTextBox4.Show();
+                    dateTimePicker1.Show();
                 }
 
             }
