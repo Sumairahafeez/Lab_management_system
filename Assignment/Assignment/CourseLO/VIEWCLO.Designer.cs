@@ -215,15 +215,15 @@
             this.button6.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.button6.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.MistyRose;
-            this.button6.Location = new System.Drawing.Point(621, 614);
+            this.button6.Location = new System.Drawing.Point(518, 563);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(158, 48);
+            this.button6.Size = new System.Drawing.Size(139, 35);
             this.button6.TabIndex = 80;
             this.button6.Text = "EXIT";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // VIEW
+            // VIEWCLO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -243,7 +243,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "VIEW";
+            this.Name = "VIEWCLO";
             this.Text = "VIEW";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

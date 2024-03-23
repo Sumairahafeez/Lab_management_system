@@ -26,12 +26,12 @@ namespace Assignment.CourseLO
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Database=master;trusted_connection=true";
+            //string connectionString = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Database=master;trusted_connection=true";
             string query = "SELECT * From Clo";
             try
             {
                 DataTable db1 = new DataTable();
-                using (SqlConnection con = new SqlConnection(connectionString))
+                using (SqlConnection con = new SqlConnection(CRUDQueries.connectionString))
                 {
                     SqlCommand cmd = new SqlCommand(query, con);
                     con.Open();

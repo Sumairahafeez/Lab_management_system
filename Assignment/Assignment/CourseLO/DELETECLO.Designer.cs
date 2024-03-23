@@ -257,9 +257,9 @@
             this.button5.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.button5.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Bisque;
-            this.button5.Location = new System.Drawing.Point(863, 552);
+            this.button5.Location = new System.Drawing.Point(645, 541);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(158, 49);
+            this.button5.Size = new System.Drawing.Size(122, 31);
             this.button5.TabIndex = 66;
             this.button5.Text = "DELETE";
             this.button5.UseVisualStyleBackColor = false;

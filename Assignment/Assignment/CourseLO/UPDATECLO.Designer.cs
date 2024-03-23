@@ -277,9 +277,9 @@
             this.button5.Cursor = System.Windows.Forms.Cursors.PanEast;
             this.button5.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Bisque;
-            this.button5.Location = new System.Drawing.Point(851, 559);
+            this.button5.Location = new System.Drawing.Point(650, 540);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(158, 49);
+            this.button5.Size = new System.Drawing.Size(145, 36);
             this.button5.TabIndex = 73;
             this.button5.Text = "UPDATE";
             this.button5.UseVisualStyleBackColor = false;

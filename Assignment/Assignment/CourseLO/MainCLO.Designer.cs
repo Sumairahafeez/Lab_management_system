@@ -187,9 +187,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Name = "MainCLO";
             this.Text = "MainCLO";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

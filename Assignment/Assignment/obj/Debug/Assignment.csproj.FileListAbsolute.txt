@@ -95,3 +95,8 @@ C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj
 C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.DELETECLO.resources
 C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.UPDATECLO.resources
 C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.VIEWCLO.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.ADDCLO.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.DELETECLO.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.MainCLO.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.UPDATECLO.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.VIEWCLO.resources

@@ -125,6 +125,12 @@
     <Compile Include="CourseLO\VIEWCLO.Designer.cs">
       <DependentUpon>VIEWCLO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Evaluation\Evaluate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Evaluation\Evaluate.Designer.cs">
+      <DependentUpon>Evaluate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global Function\CRUDQueries.cs" />
     <Compile Include="Landing Page\LandingPage.cs">
       <SubType>Form</SubType>
@@ -274,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CourseLO\VIEWCLO.resx">
       <DependentUpon>VIEWCLO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Evaluation\Evaluate.resx">
+      <DependentUpon>Evaluate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Landing Page\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>

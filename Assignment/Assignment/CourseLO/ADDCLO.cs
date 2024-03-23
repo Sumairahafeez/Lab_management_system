@@ -23,8 +23,8 @@ namespace Assignment.CourseLO
         {
             DateTime createdDate = dateTimePicker1.Value;
             DateTime updatedDate = dateTimePicker2.Value;
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
-            SqlConnection sqlConnection = new SqlConnection(URL_of_connection);
+            //string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(CRUDQueries.connectionString);
             try
             {
                 sqlConnection.Open();
@@ -69,12 +69,12 @@ namespace Assignment.CourseLO
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Database=master;trusted_connection=true";
+            //string connectionString = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Database=master;trusted_connection=true";
             string query = "SELECT * From Clo";
             try
             {
                 DataTable db1 = new DataTable();
-                using (SqlConnection con = new SqlConnection(connectionString))
+                using (SqlConnection con = new SqlConnection(CRUDQueries.connectionString))
                 {
                     SqlCommand cmd = new SqlCommand(query, con);
                     con.Open();

@@ -219,9 +219,9 @@
             this.button5.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Bisque;
             this.button5.ImageKey = "(none)";
-            this.button5.Location = new System.Drawing.Point(870, 567);
+            this.button5.Location = new System.Drawing.Point(686, 509);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(158, 51);
+            this.button5.Size = new System.Drawing.Size(127, 33);
             this.button5.TabIndex = 38;
             this.button5.Text = "ADD";
             this.button5.UseCompatibleTextRendering = true;
@@ -257,9 +257,9 @@
             this.button8.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.Color.Bisque;
             this.button8.ImageKey = "(none)";
-            this.button8.Location = new System.Drawing.Point(1109, 307);
+            this.button8.Location = new System.Drawing.Point(1114, 307);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(158, 51);
+            this.button8.Size = new System.Drawing.Size(153, 51);
             this.button8.TabIndex = 75;
             this.button8.Text = "SHOW\r\n";
             this.button8.UseCompatibleTextRendering = true;

@@ -21,11 +21,11 @@ namespace Assignment.CourseLO
 
         private void button7_Click(object sender, EventArgs e)
         { 
-            string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            //string URL_of_connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
             try
             {
                 string query = "SELECT * FROM Clo WHERE ID = @ID";
-                using (SqlConnection conConn = new SqlConnection(URL_of_connection))
+                using (SqlConnection conConn = new SqlConnection(CRUDQueries.connectionString))
                 {
 
                     SqlCommand cmd = new SqlCommand(query, conConn);
@@ -52,8 +52,8 @@ namespace Assignment.CourseLO
 
         private void button5_Click(object sender, EventArgs e)
         {
-            string connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
-            SqlConnection sqlConnection = new SqlConnection(connection);
+            //string connection = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Initial Catalog=master;Integrated Security=True";
+            SqlConnection sqlConnection = new SqlConnection(CRUDQueries.connectionString);
             sqlConnection.Open();
             try
             {
@@ -101,12 +101,12 @@ namespace Assignment.CourseLO
 
         private void button8_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Database=master;trusted_connection=true";
+            //string connectionString = "Data Source=DESKTOP-8GUTOUI\\SQLEXPRESS01;Database=master;trusted_connection=true";
             string query = "SELECT * From Clo";
             try
             {
                 DataTable db1 = new DataTable();
-                using (SqlConnection con = new SqlConnection(connectionString))
+                using (SqlConnection con = new SqlConnection(CRUDQueries.connectionString))
                 {
                     SqlCommand cmd = new SqlCommand(query, con);
                     con.Open();
