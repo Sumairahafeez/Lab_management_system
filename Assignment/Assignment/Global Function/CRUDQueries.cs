@@ -20,7 +20,7 @@ namespace Assignment.Global_Function
         public static string connectionString = "server= localhost\\SQLEXPRESS01; database= ProjectB; trusted_connection= true";
         public static DataTable ShowDataInTables(string query)
         {
-           
+
             DataTable db1 = new DataTable();
             using (SqlConnection con = new SqlConnection(connectionString))
             {
@@ -32,7 +32,7 @@ namespace Assignment.Global_Function
 
                     adapter.Fill(db1);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
@@ -67,7 +67,7 @@ namespace Assignment.Global_Function
         public static void ShowUpdateAssignment(Form CallingPage)
         {
             CallingPage.Hide();
-            UpdateAssignment updateAssignment = new UpdateAssignment(); 
+            UpdateAssignment updateAssignment = new UpdateAssignment();
             updateAssignment.Show();
         }
         public static void ShowAddAssignment(Form CallingPage)
@@ -97,7 +97,7 @@ namespace Assignment.Global_Function
         public static void ShowDeleteAssComp(Form CallingPage)
         {
             CallingPage.Hide();
-            DeleteAssComp del  = new DeleteAssComp();
+            DeleteAssComp del = new DeleteAssComp();
             del.Show();
         }
         public static void ShowViewAssComp(Form CallingPage)
@@ -167,6 +167,30 @@ namespace Assignment.Global_Function
             ViewRubricLevel view = new ViewRubricLevel();
             view.Show();
         }
+        public static int GetStudentId(string name)
+        {
+            int id = 0;
+            string query = string.Format("SELECT Id FROM Student WHERE FirstName = '{0}'", name);
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
 
+                SqlCommand cmd = new SqlCommand(query, con);
+                try
+                {
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        id = reader.GetInt32(0);
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                return id;
+            }
+        }
     }
 }

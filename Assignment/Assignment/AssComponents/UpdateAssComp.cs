@@ -28,22 +28,22 @@ namespace Assignment.Assesment_cs
 
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
-                cmd.Parameters.AddWithValue("@Name", maskedTextBox1.Text);
+                cmd.Parameters.AddWithValue("@Name", comboBox1.Text);
                 try
                 {
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        maskedTextBox2.Text = reader["RubricId"].ToString();
+                        comboBox2.Text = reader["RubricId"].ToString();
                         maskedTextBox3.Text = reader["TotalMarks"].ToString();
                         dateTimePicker1.Text = reader["DateCreated"].ToString();
                         dateTimePicker2.Text = reader["DateUpdated"].ToString();
-                        maskedTextBox6.Text = reader["AssessmentId"].ToString();
-                        maskedTextBox2.Show();
+                        comboBox3.Text = reader["AssessmentId"].ToString();
+                        comboBox2.Show();
                         maskedTextBox3.Show();
                         dateTimePicker1.Show();
                         dateTimePicker2.Show();
-                        maskedTextBox6.Show();
+                        comboBox3.Show();
                     }
                 }
                 catch(Exception ex)
@@ -62,12 +62,12 @@ namespace Assignment.Assesment_cs
             {
                 conConn.Open();
                 SqlCommand cmd = new SqlCommand(query,conConn);
-                cmd.Parameters.AddWithValue("@Name", maskedTextBox1.Text);
-                cmd.Parameters.AddWithValue("@RubricId", int.Parse(maskedTextBox2.Text));
+                cmd.Parameters.AddWithValue("@Name", comboBox1.Text);
+                cmd.Parameters.AddWithValue("@RubricId", int.Parse(comboBox2.Text));
                 cmd.Parameters.AddWithValue("@TotalMarks", int.Parse(maskedTextBox3.Text));
                 cmd.Parameters.AddWithValue("@DateCreated", DateTime.Parse(dateTimePicker1.Text));
                 cmd.Parameters.AddWithValue("@DateUpdated",DateTime.Parse(dateTimePicker2.Text));
-                cmd.Parameters.AddWithValue("@AssessmentId", int.Parse(maskedTextBox6.Text));
+                cmd.Parameters.AddWithValue("@AssessmentId", int.Parse(comboBox3.Text));
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -129,6 +129,47 @@ namespace Assignment.Assesment_cs
         private void button2_Click(object sender, EventArgs e)
         {
             CRUDQueries.ShowAssessmentMainPage(this);
+        }
+
+        private void UpdateAssComp_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Rubric";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dataGridView2.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query2 = "SELECT * FROM Assessment";
+            DataTable dt2 = new DataTable();
+            dt2 = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView1.DataSource = dt2;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query3 = "SELECT Name FROM AssessmentComponent";
+            DataTable dt3 = new DataTable();
+            dt3 = CRUDQueries.ShowDataInTables(query3);
+            comboBox1.DataSource = dt3;
+            comboBox1.DisplayMember = "Name";
+            string query1 = "SELECT Id FROM Rubric";
+            DataTable dt4 = new DataTable();
+            dt4 = CRUDQueries.ShowDataInTables(query1);
+            comboBox2.DataSource = dt4;
+            comboBox2.DisplayMember = "Id";
+            string query4 = "SELECT Id FROM Assessment";
+            DataTable dt1 = new DataTable();
+            dt1 = CRUDQueries.ShowDataInTables(query4);
+            comboBox3.DataSource = dt1;
+            comboBox3.DisplayMember = "Id";
         }
     }
 }

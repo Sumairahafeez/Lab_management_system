@@ -35,15 +35,15 @@
             this.button8 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -94,7 +94,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(211, 36);
             this.button8.TabIndex = 56;
-            this.button8.Text = "SHOW RUBRICSLEVEL";
+            this.button8.Text = "RUBRICS LEVEL";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -118,14 +118,6 @@
             this.richTextBox7.TabIndex = 58;
             this.richTextBox7.Text = "ID";
             // 
-            // richTextBox8
-            // 
-            this.richTextBox8.Location = new System.Drawing.Point(521, 323);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(222, 35);
-            this.richTextBox8.TabIndex = 59;
-            this.richTextBox8.Text = "";
-            // 
             // richTextBox2
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.MidnightBlue;
@@ -136,14 +128,6 @@
             this.richTextBox2.Size = new System.Drawing.Size(213, 35);
             this.richTextBox2.TabIndex = 60;
             this.richTextBox2.Text = "Rubric ID";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(521, 402);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(222, 35);
-            this.richTextBox4.TabIndex = 61;
-            this.richTextBox4.Text = "";
             // 
             // richTextBox1
             // 
@@ -209,20 +193,36 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(521, 323);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(222, 21);
+            this.comboBox1.TabIndex = 68;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(521, 402);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(222, 21);
+            this.comboBox2.TabIndex = 69;
+            // 
             // ViewRubricLevel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.richTextBox6);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox5);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox8);
             this.Controls.Add(this.richTextBox7);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button8);
@@ -231,6 +231,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "ViewRubricLevel";
             this.Text = "ViewRubricLevel";
+            this.Load += new System.EventHandler(this.ViewRubricLevel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -246,14 +247,14 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.RichTextBox richTextBox7;
-        private System.Windows.Forms.RichTextBox richTextBox8;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox3;
         private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

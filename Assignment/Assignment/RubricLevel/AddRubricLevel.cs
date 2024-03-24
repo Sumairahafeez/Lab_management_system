@@ -56,7 +56,7 @@ namespace Assignment.RubricLevel
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
-                cmd.Parameters.AddWithValue("@RubricId", int.Parse(richTextBox4.Text));
+                cmd.Parameters.AddWithValue("@RubricId", int.Parse(comboBox1.Text));
                 cmd.Parameters.AddWithValue("@Details",richTextBox5.Text);
                 cmd.Parameters.AddWithValue("@MeasurementLevel",int.Parse(richTextBox6.Text));
                 try
@@ -100,6 +100,37 @@ namespace Assignment.RubricLevel
         private void button6_Click(object sender, EventArgs e)
         {
             CRUDQueries.ShowMainRubricsLevel(this);
+        }
+
+        private void AddRubricLevel_Load(object sender, EventArgs e)
+        {
+            string query2 = "SELECT * FROM RubricLevel";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query = "SELECT * FROM Rubric";
+            DataTable dt1 = new DataTable();
+            dt1 = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dgb1.DataSource = dt1;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string q1 = "SELECT Id FROM Rubric";
+            DataTable dt2 = new DataTable();
+            dt2 = CRUDQueries.ShowDataInTables(q1);
+            comboBox1.DataSource = dt2;
+            comboBox1.DisplayMember = "Id";
         }
     }
 }

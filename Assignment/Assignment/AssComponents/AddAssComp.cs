@@ -75,11 +75,11 @@ namespace Assignment.Assesment_cs
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(query,conn);
                 cmd.Parameters.AddWithValue("@Name", maskedTextBox1.Text);
-                cmd.Parameters.AddWithValue("@RubricId",int.Parse(maskedTextBox2.Text));
+                cmd.Parameters.AddWithValue("@RubricId",int.Parse(comboBox1.Text));
                 cmd.Parameters.AddWithValue("@TotalMarks",int.Parse(maskedTextBox3.Text));
                 cmd.Parameters.AddWithValue("@DateCreated", DateTime.Parse(dateTimePicker1.Text));
                 cmd.Parameters.AddWithValue("@DateUpdated",DateTime.Parse(dateTimePicker2.Text));
-                cmd.Parameters.AddWithValue("@AssessmentId",int.Parse(maskedTextBox6.Text));
+                cmd.Parameters.AddWithValue("@AssessmentId",int.Parse(comboBox2.Text));
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -116,6 +116,43 @@ namespace Assignment.Assesment_cs
         private void button4_Click(object sender, EventArgs e)
         {
             CRUDQueries.ShowAssessmentMainPage(this);
+        }
+
+        private void AddAssComp_Load(object sender, EventArgs e)
+        {
+            string query1 = "SELECT Id FROM Rubric";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query1);
+            comboBox1.DataSource = dt;
+            comboBox1.DisplayMember = "Id";
+            string query2 = "SELECT Id FROM Assessment";
+            DataTable dt1 = new DataTable();
+            dt1 = CRUDQueries.ShowDataInTables(query2);
+            comboBox2.DataSource = dt1;
+            comboBox2.DisplayMember = "Id";
+            string query = "SELECT * FROM Rubric";
+            DataTable dataTable = new DataTable();
+            dataTable = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dataGridView2.DataSource = dataTable;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query5 = "SELECT * FROM Assessment";
+            DataTable dataTable2 = new DataTable();
+            dataTable2 = CRUDQueries.ShowDataInTables(query5);
+            try
+            {
+                dataGridView1.DataSource = dataTable2;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

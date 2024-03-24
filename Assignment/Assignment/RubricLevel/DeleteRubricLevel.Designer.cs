@@ -41,8 +41,8 @@
             this.button8 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.button9 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -173,7 +173,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(211, 36);
             this.button8.TabIndex = 55;
-            this.button8.Text = "SHOW RUBRICSLEVEL";
+            this.button8.Text = "RUBRICS LEVEL";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
@@ -197,34 +197,34 @@
             this.richTextBox7.TabIndex = 57;
             this.richTextBox7.Text = "ID";
             // 
-            // richTextBox8
-            // 
-            this.richTextBox8.Location = new System.Drawing.Point(928, 382);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(307, 35);
-            this.richTextBox8.TabIndex = 58;
-            this.richTextBox8.Text = "";
-            // 
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.MidnightBlue;
             this.button9.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.Color.MistyRose;
-            this.button9.Location = new System.Drawing.Point(928, 443);
+            this.button9.Location = new System.Drawing.Point(928, 419);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(141, 51);
+            this.button9.Size = new System.Drawing.Size(118, 29);
             this.button9.TabIndex = 60;
             this.button9.Text = "DELETE";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(928, 383);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(203, 21);
+            this.comboBox1.TabIndex = 61;
             // 
             // DeleteRubricLevel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button9);
-            this.Controls.Add(this.richTextBox8);
             this.Controls.Add(this.richTextBox7);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button8);
@@ -239,6 +239,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "DeleteRubricLevel";
             this.Text = "DeleteRubricLevel";
+            this.Load += new System.EventHandler(this.DeleteRubricLevel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -261,7 +262,7 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.RichTextBox richTextBox7;
-        private System.Windows.Forms.RichTextBox richTextBox8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

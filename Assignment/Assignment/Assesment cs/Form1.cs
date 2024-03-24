@@ -73,5 +73,22 @@ namespace Assignment
         {
             CRUDQueries.ShowAssCompMainPage(this);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Assessment";
+            DataTable d1 = new DataTable();
+            d1 = CRUDQueries.ShowDataInTables(query);
+            dataGridView1.DataSource = d1;
+            chart1.DataSource = d1;
+            chart1.Series.Clear();
+            Series series = chart1.Series.Add("Assessments");
+            series.XValueMember = "TotalMarks";
+            series.YValueMembers = "TotalWeightage";
+            series.ChartType = SeriesChartType.Column;
+            chart1.Titles.Add("TotalMarks vs TotalWeightage");
+            chart1.ChartAreas[0].AxisX.Title = "Total Marks";
+            chart1.ChartAreas[0].AxisY.Title = "Total Weightage";
+        }
     }
 }

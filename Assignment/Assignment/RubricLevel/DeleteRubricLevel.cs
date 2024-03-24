@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Assignment.RubricLevel
 {
@@ -41,7 +42,7 @@ namespace Assignment.RubricLevel
             {
                 SqlCommand cmd = new SqlCommand(query, con);
                 con.Open();
-                cmd.Parameters.AddWithValue("@ID", int.Parse(richTextBox8.Text));
+                cmd.Parameters.AddWithValue("@ID", int.Parse(comboBox1.Text));
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -84,6 +85,26 @@ namespace Assignment.RubricLevel
         private void button3_Click(object sender, EventArgs e)
         {
             CRUDQueries.ShowMainRubricsLevel(this);
+        }
+
+        private void DeleteRubricLevel_Load(object sender, EventArgs e)
+        {
+            string query2 = "SELECT * FROM RubricLevel";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string q2 = "SELECT Id FROM RubricLevel";
+            DataTable dt4 = new DataTable();
+            dt4 = CRUDQueries.ShowDataInTables(q2);
+            comboBox1.DataSource = dt4;
+            comboBox1.DisplayMember = "Id";
         }
     }
 }

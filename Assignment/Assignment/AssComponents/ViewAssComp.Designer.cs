@@ -39,17 +39,16 @@
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox8 = new System.Windows.Forms.RichTextBox();
             this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox10 = new System.Windows.Forms.RichTextBox();
             this.richTextBox11 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -170,15 +169,6 @@
             this.richTextBox7.TabIndex = 43;
             this.richTextBox7.Text = "ID";
             // 
-            // richTextBox8
-            // 
-            this.richTextBox8.Location = new System.Drawing.Point(571, 306);
-            this.richTextBox8.Name = "richTextBox8";
-            this.richTextBox8.Size = new System.Drawing.Size(308, 30);
-            this.richTextBox8.TabIndex = 44;
-            this.richTextBox8.Text = "";
-            this.richTextBox8.TextChanged += new System.EventHandler(this.richTextBox8_TextChanged);
-            // 
             // richTextBox9
             // 
             this.richTextBox9.Location = new System.Drawing.Point(571, 357);
@@ -187,14 +177,6 @@
             this.richTextBox9.TabIndex = 45;
             this.richTextBox9.Text = "";
             // 
-            // richTextBox10
-            // 
-            this.richTextBox10.Location = new System.Drawing.Point(571, 414);
-            this.richTextBox10.Name = "richTextBox10";
-            this.richTextBox10.Size = new System.Drawing.Size(308, 30);
-            this.richTextBox10.TabIndex = 46;
-            this.richTextBox10.Text = "";
-            // 
             // richTextBox11
             // 
             this.richTextBox11.Location = new System.Drawing.Point(571, 472);
@@ -202,14 +184,6 @@
             this.richTextBox11.Size = new System.Drawing.Size(308, 30);
             this.richTextBox11.TabIndex = 47;
             this.richTextBox11.Text = "";
-            // 
-            // richTextBox14
-            // 
-            this.richTextBox14.Location = new System.Drawing.Point(571, 657);
-            this.richTextBox14.Name = "richTextBox14";
-            this.richTextBox14.Size = new System.Drawing.Size(308, 30);
-            this.richTextBox14.TabIndex = 50;
-            this.richTextBox14.Text = "";
             // 
             // button3
             // 
@@ -252,19 +226,6 @@
             this.dateTimePicker2.TabIndex = 54;
             this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button2.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.MistyRose;
-            this.button2.Location = new System.Drawing.Point(1078, 307);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(174, 38);
-            this.button2.TabIndex = 55;
-            this.button2.Text = "VIEW TABLE";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.CornflowerBlue;
@@ -274,22 +235,45 @@
             this.dataGridView1.Size = new System.Drawing.Size(365, 256);
             this.dataGridView1.TabIndex = 56;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(571, 307);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(308, 21);
+            this.comboBox1.TabIndex = 57;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(571, 414);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(308, 21);
+            this.comboBox2.TabIndex = 58;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(571, 663);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(308, 21);
+            this.comboBox3.TabIndex = 59;
+            // 
             // ViewAssComp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.richTextBox14);
             this.Controls.Add(this.richTextBox11);
-            this.Controls.Add(this.richTextBox10);
             this.Controls.Add(this.richTextBox9);
-            this.Controls.Add(this.richTextBox8);
             this.Controls.Add(this.richTextBox7);
             this.Controls.Add(this.richTextBox6);
             this.Controls.Add(this.richTextBox5);
@@ -302,6 +286,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "ViewAssComp";
             this.Text = "ViewAssComp";
+            this.Load += new System.EventHandler(this.ViewAssComp_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -321,16 +306,15 @@
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.RichTextBox richTextBox7;
-        private System.Windows.Forms.RichTextBox richTextBox8;
         private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.RichTextBox richTextBox10;
         private System.Windows.Forms.RichTextBox richTextBox11;
-        private System.Windows.Forms.RichTextBox richTextBox14;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }

@@ -61,16 +61,16 @@ namespace Assignment.Rubrics
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query, con);
-                cmd.Parameters.AddWithValue("@ID", int.Parse(richTextBox3.Text));
+                cmd.Parameters.AddWithValue("@ID", int.Parse(comboBox1.Text));
                 try
                 {
                    
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
-                        richTextBox4.Text = reader["CloId"].ToString();
+                        comboBox2.Text = reader["CloId"].ToString();
                         richTextBox5.Text = reader["Details"].ToString();
-                        richTextBox4.Show();
+                        comboBox2.Show();
                         richTextBox5.Show();
                         string query2 = "SELECT * FROM Rubric";
                         DataTable dt = new DataTable();
@@ -100,7 +100,7 @@ namespace Assignment.Rubrics
                 con.Open();
                 SqlCommand cmd = new SqlCommand(query,con);
                 
-                cmd.Parameters.AddWithValue("@CLOID", int.Parse(richTextBox4.Text));
+                cmd.Parameters.AddWithValue("@CLOID", int.Parse(comboBox2.Text));
                 cmd.Parameters.AddWithValue("@Description",richTextBox5.Text);
                 try
                 {
@@ -138,6 +138,48 @@ namespace Assignment.Rubrics
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UpdateRubrics_Load(object sender, EventArgs e)
+        {
+            string query2 = "SELECT * FROM Clo";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query = "SELECT * FROM Rubric";
+            DataTable dt2 = new DataTable();
+            dt2 = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dataGridView2.DataSource = dt2;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query3 = "SELECT Id From Rubric";
+            DataTable dt3 = new DataTable();
+            dt3 = CRUDQueries.ShowDataInTables(query3);
+            comboBox1.DataSource = dt3;
+            comboBox1.DisplayMember = "Id";
+            string query4 = "SELECT Id From Clo";
+            DataTable dt4 = new DataTable();
+            dt4 = CRUDQueries.ShowDataInTables(query4);
+            comboBox2.DataSource = dt4;
+            comboBox2.DisplayMember = "Id";
+
         }
     }
 }

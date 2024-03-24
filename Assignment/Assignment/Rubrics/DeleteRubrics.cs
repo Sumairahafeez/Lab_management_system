@@ -61,7 +61,7 @@ namespace Assignment.Rubrics
             {
                 SqlCommand cmd = new SqlCommand(query, con);
                 con.Open();
-                cmd.Parameters.AddWithValue("@Id", int.Parse(richTextBox3.Text));
+                cmd.Parameters.AddWithValue("@Id", int.Parse(comboBox1.Text));
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -83,6 +83,26 @@ namespace Assignment.Rubrics
                     MessageBox.Show(ex.Message);
                 }
 
+            }
+        }
+
+        private void DeleteRubrics_Load(object sender, EventArgs e)
+        {
+            string query3 = "SELECT Id From Rubric";
+            DataTable dt3 = new DataTable();
+            dt3 = CRUDQueries.ShowDataInTables(query3);
+            comboBox1.DataSource = dt3;
+            comboBox1.DisplayMember = "Id";
+            string query2 = "SELECT * FROM Rubric";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView2.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

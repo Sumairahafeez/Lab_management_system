@@ -62,7 +62,7 @@ namespace Assignment.AssComponents
             {
                 SqlCommand cmd = new SqlCommand(query, con);
                 con.Open();
-                cmd.Parameters.AddWithValue("@Id", maskedTextBox1.Text);
+                cmd.Parameters.AddWithValue("@Id", comboBox1.Text);
                 try
                 {
                     cmd.ExecuteNonQuery();
@@ -74,6 +74,17 @@ namespace Assignment.AssComponents
                 }
 
             }
+            string query2 = "SELECT * FROM AssessmentComponent";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -84,6 +95,31 @@ namespace Assignment.AssComponents
         private void button2_Click(object sender, EventArgs e)
         {
            CRUDQueries.ShowAssessmentMainPage(this);
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void DeleteAssComp_Load(object sender, EventArgs e)
+        {
+            string query1 = "SELECT Id FROM AssessmentComponent";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query1);
+            comboBox1.DataSource = dt;
+            comboBox1.DisplayMember = "Id";
+            string query = "SELECT * FROM AssessmentComponent";
+            DataTable dt2 = new DataTable();
+            dt2 = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dataGridView1.DataSource = dt2;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

@@ -36,7 +36,7 @@ namespace Assignment.Rubrics
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
                 cmd.Parameters.AddWithValue("@Id", int.Parse(richTextBox3.Text));
-                cmd.Parameters.AddWithValue("@CloId", int.Parse(richTextBox4.Text));
+                cmd.Parameters.AddWithValue("@CloId", int.Parse(comboBox1.Text));
                 cmd.Parameters.AddWithValue("@Details",richTextBox5.Text);
                 
                 try
@@ -100,6 +100,25 @@ namespace Assignment.Rubrics
         private void button8_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void AddRubrics_Load(object sender, EventArgs e)
+        {
+            string query2 = "SELECT * FROM Clo";
+            DataTable dt = new DataTable();
+            dt = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dgb1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query = "SELECT Id FROM Clo";
+            DataTable dt2 = CRUDQueries.ShowDataInTables(query);
+            comboBox1.DataSource = dt2;
+            comboBox1.DisplayMember = "Id";
         }
     }
 }

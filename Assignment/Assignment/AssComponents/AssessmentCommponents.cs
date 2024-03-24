@@ -80,5 +80,33 @@ namespace Assignment.Assesment_cs
         {
             CRUDQueries.ShowViewAssComp(this);
         }
+
+        private void AssessmentCommponents_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Rubric";
+            DataTable dataTable = new DataTable();
+            dataTable = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dataGridView2.DataSource = dataTable;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query5 = "SELECT * FROM Assessment";
+            DataTable dataTable2 = new DataTable();
+            dataTable2 = CRUDQueries.ShowDataInTables(query5);
+            try
+            {
+                dataGridView1.DataSource = dataTable2;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+
+        }
     }
 }

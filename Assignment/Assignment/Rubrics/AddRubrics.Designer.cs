@@ -43,10 +43,10 @@
             this.button7 = new System.Windows.Forms.Button();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgb1)).BeginInit();
@@ -173,7 +173,7 @@
             this.button4.BackColor = System.Drawing.Color.MidnightBlue;
             this.button4.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.MistyRose;
-            this.button4.Location = new System.Drawing.Point(657, 597);
+            this.button4.Location = new System.Drawing.Point(673, 555);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(139, 49);
             this.button4.TabIndex = 40;
@@ -200,7 +200,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(162, 36);
             this.button7.TabIndex = 42;
-            this.button7.Text = "SHOW CLOS";
+            this.button7.Text = " CLOS";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
@@ -222,14 +222,6 @@
             this.richTextBox3.Size = new System.Drawing.Size(222, 35);
             this.richTextBox3.TabIndex = 44;
             this.richTextBox3.Text = "";
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(673, 415);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(222, 35);
-            this.richTextBox4.TabIndex = 45;
-            this.richTextBox4.Text = "";
             // 
             // richTextBox5
             // 
@@ -261,15 +253,23 @@
             this.richTextBox6.TabIndex = 48;
             this.richTextBox6.Text = "Description";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(673, 415);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(222, 21);
+            this.comboBox1.TabIndex = 49;
+            // 
             // AddRubrics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 729);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.richTextBox6);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.richTextBox5);
-            this.Controls.Add(this.richTextBox4);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button7);
@@ -286,6 +286,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Name = "AddRubrics";
             this.Text = "AddRubrics";
+            this.Load += new System.EventHandler(this.AddRubrics_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgb1)).EndInit();
@@ -310,9 +311,9 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox4;
         private System.Windows.Forms.RichTextBox richTextBox5;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox richTextBox6;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

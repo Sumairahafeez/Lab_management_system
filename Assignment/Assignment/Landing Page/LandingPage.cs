@@ -1,4 +1,5 @@
 ﻿using Assignment.CourseLO;
+using Assignment.Evaluation;
 using Assignment.Global_Function;
 using Assignment.Rubrics;
 using Assignment.STD;
@@ -46,6 +47,13 @@ namespace Assignment
         {
             MainCLO mainCLO = new MainCLO();
             mainCLO.ShowDialog();
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Evaluate evaluate = new Evaluate(); 
+            evaluate.ShowDialog();
         }
     }
 }

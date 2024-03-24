@@ -67,5 +67,30 @@ namespace Assignment.RubricLevel
             chart1.ChartAreas[0].AxisX.Title = "RubricId";
             chart1.ChartAreas[0].AxisY.Title = "MeasurementLevel";
         }
+
+        private void MainRubricLevel_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM RubricLevel";
+            DataTable db1 = new DataTable();
+            db1 = CRUDQueries.ShowDataInTables(query);
+            try
+            {
+                dataGridView1.DataSource = db1;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            chart1.DataSource = db1;
+            chart1.Series.Clear();
+            Series series = chart1.Series.Add("Rubrics Level");
+            series.XValueMember = "RubricId";
+            series.YValueMembers = "MeasurementLevel";
+            series.ChartType = SeriesChartType.Column;
+            chart1.Titles.Add("Rubrics Level");
+            chart1.ChartAreas[0].AxisX.Title = "RubricId";
+            chart1.ChartAreas[0].AxisY.Title = "MeasurementLevel";
+
+        }
     }
 }

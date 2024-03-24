@@ -100,3 +100,4 @@ F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assign
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.MainCLO.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.UPDATECLO.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.CourseLO.VIEWCLO.resources
+F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Evaluation.Evaluate.resources

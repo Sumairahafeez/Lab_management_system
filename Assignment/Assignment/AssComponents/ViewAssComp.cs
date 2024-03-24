@@ -41,20 +41,20 @@ namespace Assignment.AssComponents
             {
                 conConn.Open();
                 SqlCommand cmd = new SqlCommand(query, conConn);
-                cmd.Parameters.AddWithValue("@ID", richTextBox8.Text);
+                cmd.Parameters.AddWithValue("@ID", int.Parse(comboBox1.Text));
                 try
                 {
                     SqlDataReader reader = cmd.ExecuteReader();
                     while (reader.Read())
                     {
                         richTextBox9.Text = reader["Name"].ToString();
-                        richTextBox10.Text = reader["RubricId"].ToString();
-                        richTextBox11.Text = reader["TotalMarks"].ToString() ;
+                        comboBox2.Text = reader["RubricId"].ToString();
+                        richTextBox11.Text = reader["TotalMarks"].ToString();
                         dateTimePicker1.Text = reader["DateCreated"].ToString();
                         dateTimePicker2.Text = reader["DateUpdated"].ToString();
-                        richTextBox14.Text = reader["AssessmentId"].ToString();
+                        comboBox3.Text = reader["AssessmentId"].ToString();
                     }
-                    
+
                 }
                 catch (Exception ex)
                 {
@@ -62,8 +62,8 @@ namespace Assignment.AssComponents
                 }
 
             }
-        
-    }
+
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -84,16 +84,49 @@ namespace Assignment.AssComponents
             {
                 dataGridView1.DataSource = dt;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-           
+
         }
 
         private void richTextBox8_TextChanged(object sender, EventArgs e)
         {
 
         }
-    }
+
+        private void ViewAssComp_Load(object sender, EventArgs e)
+        {
+            
+            string query2 = "SELECT * FROM AssessmentComponent";
+            DataTable dt2 = new DataTable();
+            dt2 = CRUDQueries.ShowDataInTables(query2);
+            try
+            {
+                dataGridView1.DataSource = dt2;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            string query3 = "SELECT Id FROM AssessmentComponent";
+            DataTable dt3 = new DataTable();
+            dt3 = CRUDQueries.ShowDataInTables(query3);
+            comboBox1.DataSource = dt3;
+            comboBox1.DisplayMember = "Id";
+            string query1 = "SELECT Id FROM Rubric";
+            DataTable dt4 = new DataTable();
+            dt4 = CRUDQueries.ShowDataInTables(query1);
+            comboBox1.DataSource = dt4;
+            comboBox1.DisplayMember = "Id";
+            string query4 = "SELECT Id FROM Assessment";
+            DataTable dt1 = new DataTable();
+            dt1 = CRUDQueries.ShowDataInTables(query4);
+            comboBox2.DataSource = dt1;
+            comboBox2.DisplayMember = "Id";
+        }
+    
+    
+}
 }

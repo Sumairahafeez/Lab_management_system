@@ -64,5 +64,23 @@ namespace Assignment.Rubrics
         {
             CRUDQueries.ShowViewRubrics(this);
         }
+
+        private void MainRubrics_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Rubric";
+            DataTable db1 = new DataTable();
+            db1 = CRUDQueries.ShowDataInTables(query);
+            dataGridView1.DataSource = db1;
+
+            chart1.DataSource = db1;
+            chart1.Series.Clear();
+            Series series = chart1.Series.Add("Rubrics");
+            series.XValueMember = "Id";
+            series.YValueMembers = "CloId";
+            series.ChartType = SeriesChartType.Column;
+            chart1.Titles.Add("Rubrics");
+            chart1.ChartAreas[0].AxisX.Title = "Id";
+            chart1.ChartAreas[0].AxisY.Title = "CloId";
+        }
     }
 }

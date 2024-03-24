@@ -66,7 +66,7 @@ namespace Assignment
 
                 SqlCommand cmd = new SqlCommand(query, conConn);
                 conConn.Open();
-                cmd.Parameters.AddWithValue("@ID",int.Parse(richTextBox9.Text));
+                cmd.Parameters.AddWithValue("@ID",int.Parse(comboBox1.Text));
                 SqlDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
@@ -103,6 +103,17 @@ namespace Assignment
             string query = "SELECT * FROM Assessment";
             DataTable dt = CRUDQueries.ShowDataInTables(query);
             dgb1.DataSource = dt;
+        }
+
+        private void UpdateAssignment_Load(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM Assessment";
+            DataTable dt = CRUDQueries.ShowDataInTables(query);
+            dgb1.DataSource = dt;
+            string query2 = "SELECT Id FROM Assessment";
+            DataTable dt2 = CRUDQueries.ShowDataInTables(query2);
+            comboBox1.DataSource = dt2;
+            comboBox1.DisplayMember = "Id";
         }
     }
 }
