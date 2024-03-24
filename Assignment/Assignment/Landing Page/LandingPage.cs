@@ -55,5 +55,10 @@ namespace Assignment
             Evaluate evaluate = new Evaluate(); 
             evaluate.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

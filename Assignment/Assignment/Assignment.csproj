@@ -95,6 +95,12 @@
     <Compile Include="Assesment cs\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class Attendence\classAttendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class Attendence\classAttendence.Designer.cs">
+      <DependentUpon>classAttendence.cs</DependentUpon>
+    </Compile>
     <Compile Include="CourseLO\ADDCLO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,12 @@
       <DependentUpon>Evaluate.cs</DependentUpon>
     </Compile>
     <Compile Include="Global Function\CRUDQueries.cs" />
+    <Compile Include="Landing Page\FirstPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Landing Page\FirstPage.Designer.cs">
+      <DependentUpon>FirstPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Landing Page\LandingPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,6 +278,9 @@
     <EmbeddedResource Include="Assesment cs\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Class Attendence\classAttendence.resx">
+      <DependentUpon>classAttendence.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CourseLO\ADDCLO.resx">
       <DependentUpon>ADDCLO.cs</DependentUpon>
     </EmbeddedResource>
@@ -283,6 +298,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Evaluation\Evaluate.resx">
       <DependentUpon>Evaluate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Landing Page\FirstPage.resx">
+      <DependentUpon>FirstPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Landing Page\LandingPage.resx">
       <DependentUpon>LandingPage.cs</DependentUpon>
