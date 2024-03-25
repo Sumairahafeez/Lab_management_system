@@ -39,6 +39,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -83,7 +84,7 @@
             this.button1.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Bisque;
             this.button1.ImageKey = "(none)";
-            this.button1.Location = new System.Drawing.Point(132, 262);
+            this.button1.Location = new System.Drawing.Point(132, 237);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 51);
             this.button1.TabIndex = 11;
@@ -98,7 +99,7 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.PanEast;
             this.button2.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Bisque;
-            this.button2.Location = new System.Drawing.Point(132, 351);
+            this.button2.Location = new System.Drawing.Point(132, 325);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(158, 49);
             this.button2.TabIndex = 12;
@@ -112,7 +113,7 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.button3.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Bisque;
-            this.button3.Location = new System.Drawing.Point(132, 444);
+            this.button3.Location = new System.Drawing.Point(132, 416);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(158, 49);
             this.button3.TabIndex = 13;
@@ -126,7 +127,7 @@
             this.button4.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.button4.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Bisque;
-            this.button4.Location = new System.Drawing.Point(132, 540);
+            this.button4.Location = new System.Drawing.Point(132, 501);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(158, 49);
             this.button4.TabIndex = 14;
@@ -140,7 +141,7 @@
             this.button6.Cursor = System.Windows.Forms.Cursors.PanWest;
             this.button6.Font = new System.Drawing.Font("Imprint MT Shadow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.MistyRose;
-            this.button6.Location = new System.Drawing.Point(132, 643);
+            this.button6.Location = new System.Drawing.Point(132, 689);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(158, 48);
             this.button6.TabIndex = 18;
@@ -173,11 +174,26 @@
             this.dataGridView1.Size = new System.Drawing.Size(689, 232);
             this.dataGridView1.TabIndex = 20;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.MidnightBlue;
+            this.button7.Cursor = System.Windows.Forms.Cursors.PanWest;
+            this.button7.Font = new System.Drawing.Font("Imprint MT Shadow", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.Bisque;
+            this.button7.Location = new System.Drawing.Point(132, 592);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(158, 49);
+            this.button7.TabIndex = 21;
+            this.button7.Text = "Mark Attendance\r\n";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // MainSTD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
@@ -210,5 +226,6 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button7;
     }
 }

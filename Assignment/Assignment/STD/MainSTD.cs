@@ -1,4 +1,5 @@
-﻿using Assignment.Global_Function;
+﻿using Assignment.Attendance;
+using Assignment.Global_Function;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -68,6 +69,13 @@ namespace Assignment.STD
             this.Hide();
             LandingPage landing = new LandingPage();
             landing.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StdAttendance stdAttendance= new StdAttendance();
+            stdAttendance.Show();
         }
     }
 }

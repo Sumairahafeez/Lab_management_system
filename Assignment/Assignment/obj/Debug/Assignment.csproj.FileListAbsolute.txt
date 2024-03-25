@@ -103,3 +103,7 @@ F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assign
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Evaluation.Evaluate.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Class_Attendence.classAttendence.resources
 F:\2nd semester\DB Lab\Mid Project\clone\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Landing_Page.FirstPage.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Class_Attendence.classAttendence.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Evaluation.Evaluate.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Landing_Page.FirstPage.resources
+C:\Users\Mr Saim\Desktop\Project\Lab_management_system\Assignment\Assignment\obj\Debug\Assignment.Attendance.StdAttendance.resources
