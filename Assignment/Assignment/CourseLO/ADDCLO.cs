@@ -103,5 +103,10 @@ namespace Assignment.CourseLO
             VIEWCLO viewCLO = new VIEWCLO();    
             viewCLO.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
