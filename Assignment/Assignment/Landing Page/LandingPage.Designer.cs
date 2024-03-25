@@ -128,7 +128,7 @@
             this.linkLabel6.Font = new System.Drawing.Font("Imprint MT Shadow", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel6.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.linkLabel6.LinkColor = System.Drawing.Color.MidnightBlue;
-            this.linkLabel6.Location = new System.Drawing.Point(1085, 362);
+            this.linkLabel6.Location = new System.Drawing.Point(1066, 362);
             this.linkLabel6.Name = "linkLabel6";
             this.linkLabel6.Size = new System.Drawing.Size(259, 42);
             this.linkLabel6.TabIndex = 25;
@@ -219,7 +219,7 @@
             this.button7.Font = new System.Drawing.Font("Imprint MT Shadow", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.Color.MistyRose;
             this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(1077, 344);
+            this.button7.Location = new System.Drawing.Point(1058, 344);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(267, 395);
             this.button7.TabIndex = 33;
