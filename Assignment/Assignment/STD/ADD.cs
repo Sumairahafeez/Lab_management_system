@@ -107,5 +107,10 @@ namespace Assignment.STD
             VIEW view = new VIEW();
             view.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
