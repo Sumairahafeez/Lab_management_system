@@ -1,0 +1,1172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|f:\\2nd semester\\db lab\\mid project\\clone\\lab_management_system\\assignment\\assignment\\landing page\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\landing page\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\landing page\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\landing page\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\evaluation\\evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\evaluation\\evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\evaluation\\evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\evaluation\\evaluate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\mainstd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\mainstd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\mainstd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\mainstd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\assessmentcommponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\assessmentcommponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\assessmentcommponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\assessmentcommponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\viewassesment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\viewassesment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\viewassesment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\viewassesment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\updateassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\updateassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\updateassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\updateassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\deleteassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\deleteassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\deleteassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\deleteassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\addassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\addassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\addassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\assesment cs\\addassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\deleteasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\deleteasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\deleteasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\deleteasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\addasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\addasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\addasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\addasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\class attendence\\classattendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\class attendence\\classattendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\class attendence\\classattendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\class attendence\\classattendence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\updaterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\updaterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\addrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\addrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\addclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\addclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hafeez\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\66OZCIGI\\stdAttendance[1].cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\std\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\std\\delete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\updaterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\updaterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\updaterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\updaterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\addrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\addrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\addrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\addrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\addrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\addrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\viewrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\viewrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\viewrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\viewrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\updaterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\updaterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\viewasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\viewasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\asscomponents\\viewasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\asscomponents\\viewasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\viewclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\viewclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\updateclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\updateclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\mainclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\mainclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\deleteclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\deleteclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\addclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\addclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\landing page\\firstpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\landing page\\firstpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\landing page\\firstpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\landing page\\firstpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\deleterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\deleterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\deleterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\deleterubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\mainrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\mainrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubriclevel\\mainrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubriclevel\\mainrubriclevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\viewrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\viewrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\deleterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\deleterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\viewrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\viewrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\deleterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\deleterubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\mainrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\mainrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\rubrics\\mainrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\rubrics\\mainrubrics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\global function\\crudqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\global function\\crudqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\viewclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\viewclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\deleteclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\deleteclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\updateclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\updateclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\courselo\\mainclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81610097-F4D9-45FE-A755-FFEE58924548}|Assignment\\Assignment.csproj|solutionrelative:assignment\\courselo\\mainclo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|f:\\2nd semester\\db lab\\mid project\\clone\\lab_management_system\\assignment\\assignment\\assesment cs\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assignment\\assesment cs\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|f:\\2nd semester\\db lab\\mid project\\clone\\lab_management_system\\assignment\\assignment\\assesment cs\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assignment\\assesment cs\\updateasscomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\assignment\\assesment cs\\assessmentcommponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assignment\\assesment cs\\assessmentcommponents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Evaluate.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Evaluation\\Evaluate.cs",
+              "RelativeDocumentMoniker": "Assignment\\Evaluation\\Evaluate.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Evaluation\\Evaluate.cs [Design]",
+              "RelativeToolTip": "Assignment\\Evaluation\\Evaluate.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T17:19:53.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Evaluate.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Evaluation\\Evaluate.cs",
+              "RelativeDocumentMoniker": "Assignment\\Evaluation\\Evaluate.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Evaluation\\Evaluate.cs",
+              "RelativeToolTip": "Assignment\\Evaluation\\Evaluate.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAHAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T04:21:38.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainSTD.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\MainSTD.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\MainSTD.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\MainSTD.cs",
+              "RelativeToolTip": "Assignment\\STD\\MainSTD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:21:11.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ADD.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\ADD.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\ADD.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\ADD.cs [Design]",
+              "RelativeToolTip": "Assignment\\STD\\ADD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:21:45.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LandingPage.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\LandingPage.cs",
+              "RelativeDocumentMoniker": "Assignment\\Landing Page\\LandingPage.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\LandingPage.cs [Design]",
+              "RelativeToolTip": "Assignment\\Landing Page\\LandingPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:21:20.276Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LandingPage.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\LandingPage.cs",
+              "RelativeDocumentMoniker": "Assignment\\Landing Page\\LandingPage.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\LandingPage.cs",
+              "RelativeToolTip": "Assignment\\Landing Page\\LandingPage.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwEkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:21:25.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateAssComp.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\UpdateAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\UpdateAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\UpdateAssComp.cs",
+              "RelativeToolTip": "Assignment\\AssComponents\\UpdateAssComp.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAIwDwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:20:33.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ADD.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\ADD.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\ADD.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\ADD.cs",
+              "RelativeToolTip": "Assignment\\STD\\ADD.cs",
+              "ViewState": "AQIAAEIAAAAAMDMzMzMLwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T15:21:53.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainSTD.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\MainSTD.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\MainSTD.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\MainSTD.cs [Design]",
+              "RelativeToolTip": "Assignment\\STD\\MainSTD.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:03:06.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssessmentCommponents.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AssessmentCommponents.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\AssessmentCommponents.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AssessmentCommponents.cs",
+              "RelativeToolTip": "Assignment\\AssComponents\\AssessmentCommponents.cs",
+              "ViewState": "AQIAAFEAAABA//////8hwHkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:46:37.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateAssignment.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssignment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\UpdateAssignment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssignment.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\UpdateAssignment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:32:27.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UpdateAssComp.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\UpdateAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\UpdateAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\UpdateAssComp.cs [Design]",
+              "RelativeToolTip": "Assignment\\AssComponents\\UpdateAssComp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:19:26.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssessmentCommponents.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AssessmentCommponents.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\AssessmentCommponents.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AssessmentCommponents.cs [Design]",
+              "RelativeToolTip": "Assignment\\AssComponents\\AssessmentCommponents.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:46:32.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewAssesment.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\ViewAssesment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\ViewAssesment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\ViewAssesment.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\ViewAssesment.cs",
+              "ViewState": "AQIAAFsAAAAA/P///78hwCEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:11:37.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewAssesment.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\ViewAssesment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\ViewAssesment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\ViewAssesment.cs [Design]",
+              "RelativeToolTip": "Assignment\\Assesment cs\\ViewAssesment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:52:43.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateAssignment.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssignment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\UpdateAssignment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssignment.cs [Design]",
+              "RelativeToolTip": "Assignment\\Assesment cs\\UpdateAssignment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:11:40.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\Form1.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\Form1.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\Form1.cs",
+              "ViewState": "AQIAACcAAABAAQAAAIAVwD8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:46:31.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\Form1.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\Form1.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\Form1.cs [Design]",
+              "RelativeToolTip": "Assignment\\Assesment cs\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:46:17.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DeleteAssignment.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\DeleteAssignment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\DeleteAssignment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\DeleteAssignment.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\DeleteAssignment.cs",
+              "ViewState": "AQIAAC0AAADAyczMzMwewE8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:12:42.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DeleteAssignment.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\DeleteAssignment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\DeleteAssignment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\DeleteAssignment.cs [Design]",
+              "RelativeToolTip": "Assignment\\Assesment cs\\DeleteAssignment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:49:19.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddAssessment.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\AddAssessment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\AddAssessment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\AddAssessment.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\AddAssessment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T14:53:07.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddAssessment.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\AddAssessment.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\AddAssessment.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\AddAssessment.cs [Design]",
+              "RelativeToolTip": "Assignment\\Assesment cs\\AddAssessment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:47:37.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "VIEW.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\VIEW.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\VIEW.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\VIEW.cs [Design]",
+              "RelativeToolTip": "Assignment\\STD\\VIEW.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:24:40.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UPDATE.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\UPDATE.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\UPDATE.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\UPDATE.cs [Design]",
+              "RelativeToolTip": "Assignment\\STD\\UPDATE.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:24:14.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeleteAssComp.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\DeleteAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\DeleteAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\DeleteAssComp.cs",
+              "RelativeToolTip": "Assignment\\AssComponents\\DeleteAssComp.cs",
+              "ViewState": "AQIAABwAAAAAyszMzMwlwIYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:57:13.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteAssComp.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\DeleteAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\DeleteAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\DeleteAssComp.cs [Design]",
+              "RelativeToolTip": "Assignment\\AssComponents\\DeleteAssComp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:49:55.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AddAssComp.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AddAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\AddAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AddAssComp.cs",
+              "RelativeToolTip": "Assignment\\AssComponents\\AddAssComp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T16:00:45.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddAssComp.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AddAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\AddAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\AddAssComp.cs [Design]",
+              "RelativeToolTip": "Assignment\\AssComponents\\AddAssComp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:59:01.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "classAttendence.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Class Attendence\\classAttendence.cs",
+              "RelativeDocumentMoniker": "Assignment\\Class Attendence\\classAttendence.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Class Attendence\\classAttendence.cs",
+              "RelativeToolTip": "Assignment\\Class Attendence\\classAttendence.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T12:09:34.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "VIEW.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\VIEW.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\VIEW.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\VIEW.cs",
+              "RelativeToolTip": "Assignment\\STD\\VIEW.cs",
+              "ViewState": "AQIAABkAAAAAzczMzMwUwGcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:24:43.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UpdateRubricLevel.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\UpdateRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\UpdateRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\UpdateRubricLevel.cs",
+              "RelativeToolTip": "Assignment\\RubricLevel\\UpdateRubricLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:25:07.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "classAttendence.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Class Attendence\\classAttendence.cs",
+              "RelativeDocumentMoniker": "Assignment\\Class Attendence\\classAttendence.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Class Attendence\\classAttendence.cs [Design]",
+              "RelativeToolTip": "Assignment\\Class Attendence\\classAttendence.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:41:13.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddRubricLevel.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\AddRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\AddRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\AddRubricLevel.cs",
+              "RelativeToolTip": "Assignment\\RubricLevel\\AddRubricLevel.cs",
+              "ViewState": "AQIAAAUAAAAA+P//////v2gAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:11:51.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ADDCLO.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\ADDCLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\ADDCLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\ADDCLO.cs",
+              "RelativeToolTip": "Assignment\\CourseLO\\ADDCLO.cs",
+              "ViewState": "AQIAABUAAABgZmZmZqY2wEUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:50:14.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "stdAttendance[1].cs",
+              "DocumentMoniker": "C:\\Users\\Hafeez\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\66OZCIGI\\stdAttendance[1].cs",
+              "ToolTip": "C:\\Users\\Hafeez\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\66OZCIGI\\stdAttendance[1].cs [Read Only]",
+              "ViewState": "AQIAADgAAABAUGZmZmYkwE4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T17:36:37.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DELETE.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\DELETE.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\DELETE.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\DELETE.cs",
+              "RelativeToolTip": "Assignment\\STD\\DELETE.cs",
+              "ViewState": "AQIAABQAAAAAuMzMzMz0vy8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:23:52.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DELETE.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\DELETE.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\DELETE.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\DELETE.cs [Design]",
+              "RelativeToolTip": "Assignment\\STD\\DELETE.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:23:46.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UPDATE.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\UPDATE.cs",
+              "RelativeDocumentMoniker": "Assignment\\STD\\UPDATE.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\STD\\UPDATE.cs",
+              "RelativeToolTip": "Assignment\\STD\\UPDATE.cs",
+              "ViewState": "AQIAABoAAABAmJmZmZkbwC8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T16:24:16.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AddRubrics.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\AddRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\AddRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\AddRubrics.cs",
+              "RelativeToolTip": "Assignment\\Rubrics\\AddRubrics.cs",
+              "ViewState": "AQIAAGAAAAAAuMzMzAwjwGoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:03:33.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AddRubrics.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\AddRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\AddRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\AddRubrics.cs [Design]",
+              "RelativeToolTip": "Assignment\\Rubrics\\AddRubrics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:03:19.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AddRubricLevel.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\AddRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\AddRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\AddRubricLevel.cs [Design]",
+              "RelativeToolTip": "Assignment\\RubricLevel\\AddRubricLevel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:03:17.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ViewRubricLevel.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\ViewRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\ViewRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\ViewRubricLevel.cs",
+              "RelativeToolTip": "Assignment\\RubricLevel\\ViewRubricLevel.cs",
+              "ViewState": "AQIAAE0AAACAZGZmZoY8wFwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:56:11.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateRubrics.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\UpdateRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\UpdateRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\UpdateRubrics.cs [Design]",
+              "RelativeToolTip": "Assignment\\Rubrics\\UpdateRubrics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:57:48.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UpdateRubrics.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\UpdateRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\UpdateRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\UpdateRubrics.cs",
+              "RelativeToolTip": "Assignment\\Rubrics\\UpdateRubrics.cs",
+              "ViewState": "AQIAAFgAAADA4f////8LwGUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:17:02.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ViewRubricLevel.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\ViewRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\ViewRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\ViewRubricLevel.cs [Design]",
+              "RelativeToolTip": "Assignment\\RubricLevel\\ViewRubricLevel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:50:51.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UpdateRubricLevel.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\UpdateRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\UpdateRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\UpdateRubricLevel.cs [Design]",
+              "RelativeToolTip": "Assignment\\RubricLevel\\UpdateRubricLevel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:19:09.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ViewAssComp.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\ViewAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\ViewAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\ViewAssComp.cs",
+              "RelativeToolTip": "Assignment\\AssComponents\\ViewAssComp.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAIwH4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:27:35.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ViewAssComp.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\ViewAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\AssComponents\\ViewAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\AssComponents\\ViewAssComp.cs [Design]",
+              "RelativeToolTip": "Assignment\\AssComponents\\ViewAssComp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T06:25:10.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UPDATECLO.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\UPDATECLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\UPDATECLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\UPDATECLO.cs [Design]",
+              "RelativeToolTip": "Assignment\\CourseLO\\UPDATECLO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:50:47.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MainCLO.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\MainCLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\MainCLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\MainCLO.cs [Design]",
+              "RelativeToolTip": "Assignment\\CourseLO\\MainCLO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:49:07.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DELETECLO.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\DELETECLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\DELETECLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\DELETECLO.cs [Design]",
+              "RelativeToolTip": "Assignment\\CourseLO\\DELETECLO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:51:16.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ADDCLO.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\ADDCLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\ADDCLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\ADDCLO.cs [Design]",
+              "RelativeToolTip": "Assignment\\CourseLO\\ADDCLO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:49:53.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "VIEWCLO.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\VIEWCLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\VIEWCLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\VIEWCLO.cs [Design]",
+              "RelativeToolTip": "Assignment\\CourseLO\\VIEWCLO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:51:44.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DeleteRubricLevel.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\DeleteRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\DeleteRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\DeleteRubricLevel.cs",
+              "RelativeToolTip": "Assignment\\RubricLevel\\DeleteRubricLevel.cs",
+              "ViewState": "AQIAAEsAAABU/P////8uwGoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:47:19.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "MainRubricLevel.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\MainRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\MainRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\MainRubricLevel.cs",
+              "RelativeToolTip": "Assignment\\RubricLevel\\MainRubricLevel.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAkwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T06:51:59.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FirstPage.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\FirstPage.cs",
+              "RelativeDocumentMoniker": "Assignment\\Landing Page\\FirstPage.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\FirstPage.cs [Design]",
+              "RelativeToolTip": "Assignment\\Landing Page\\FirstPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:47:38.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "FirstPage.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\FirstPage.cs",
+              "RelativeDocumentMoniker": "Assignment\\Landing Page\\FirstPage.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Landing Page\\FirstPage.cs",
+              "RelativeToolTip": "Assignment\\Landing Page\\FirstPage.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T10:55:16.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment\\Program.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Program.cs",
+              "RelativeToolTip": "Assignment\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T11:29:57.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DeleteRubricLevel.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\DeleteRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\DeleteRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\DeleteRubricLevel.cs [Design]",
+              "RelativeToolTip": "Assignment\\RubricLevel\\DeleteRubricLevel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T07:42:20.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "MainRubricLevel.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\MainRubricLevel.cs",
+              "RelativeDocumentMoniker": "Assignment\\RubricLevel\\MainRubricLevel.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\RubricLevel\\MainRubricLevel.cs [Design]",
+              "RelativeToolTip": "Assignment\\RubricLevel\\MainRubricLevel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T06:45:11.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ViewRubrics.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\ViewRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\ViewRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\ViewRubrics.cs",
+              "RelativeToolTip": "Assignment\\Rubrics\\ViewRubrics.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:48:17.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "DeleteRubrics.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\DeleteRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\DeleteRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\DeleteRubrics.cs [Design]",
+              "RelativeToolTip": "Assignment\\Rubrics\\DeleteRubrics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:58:03.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ViewRubrics.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\ViewRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\ViewRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\ViewRubrics.cs [Design]",
+              "RelativeToolTip": "Assignment\\Rubrics\\ViewRubrics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:58:18.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DeleteRubrics.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\DeleteRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\DeleteRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\DeleteRubrics.cs",
+              "RelativeToolTip": "Assignment\\Rubrics\\DeleteRubrics.cs",
+              "ViewState": "AQIAAFUAAADwzMzMzAwvwF4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T05:36:17.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MainRubrics.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\MainRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\MainRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\MainRubrics.cs [Design]",
+              "RelativeToolTip": "Assignment\\Rubrics\\MainRubrics.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:55:09.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MainRubrics.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\MainRubrics.cs",
+              "RelativeDocumentMoniker": "Assignment\\Rubrics\\MainRubrics.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Rubrics\\MainRubrics.cs",
+              "RelativeToolTip": "Assignment\\Rubrics\\MainRubrics.cs",
+              "ViewState": "AQIAAEMAAAAgmpmZmZkRwFIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:56:21.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CRUDQueries.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Global Function\\CRUDQueries.cs",
+              "RelativeDocumentMoniker": "Assignment\\Global Function\\CRUDQueries.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Global Function\\CRUDQueries.cs",
+              "RelativeToolTip": "Assignment\\Global Function\\CRUDQueries.cs",
+              "ViewState": "AQIAALoAAAAAAAAAAAAWwMIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:36:17.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "UPDATECLO.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\UPDATECLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\UPDATECLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\UPDATECLO.cs",
+              "RelativeToolTip": "Assignment\\CourseLO\\UPDATECLO.cs",
+              "ViewState": "AQIAAFkAAABAmJmZmZkjwBwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:51:02.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DELETECLO.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\DELETECLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\DELETECLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\DELETECLO.cs",
+              "RelativeToolTip": "Assignment\\CourseLO\\DELETECLO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:51:26.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "VIEWCLO.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\VIEWCLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\VIEWCLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\VIEWCLO.cs",
+              "RelativeToolTip": "Assignment\\CourseLO\\VIEWCLO.cs",
+              "ViewState": "AQIAAEcAAABQZWZmZmYiwBsAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:51:57.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "MainCLO.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\MainCLO.cs",
+              "RelativeDocumentMoniker": "Assignment\\CourseLO\\MainCLO.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\CourseLO\\MainCLO.cs",
+              "RelativeToolTip": "Assignment\\CourseLO\\MainCLO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:49:25.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UpdateAssComp.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\UpdateAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssComp.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\UpdateAssComp.cs",
+              "ViewState": "AQIAADgAAACALzMzMzMhwE8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:32:12.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UpdateAssComp.cs [Design]",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssComp.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\UpdateAssComp.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\UpdateAssComp.cs [Design]",
+              "RelativeToolTip": "Assignment\\Assesment cs\\UpdateAssComp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T15:23:18.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "AssessmentCommponents.cs",
+              "DocumentMoniker": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\AssessmentCommponents.cs",
+              "RelativeDocumentMoniker": "Assignment\\Assesment cs\\AssessmentCommponents.cs",
+              "ToolTip": "F:\\2nd semester\\DB Lab\\Mid Project\\clone\\Lab_management_system\\Assignment\\Assignment\\Assesment cs\\AssessmentCommponents.cs",
+              "RelativeToolTip": "Assignment\\Assesment cs\\AssessmentCommponents.cs",
+              "ViewState": "AQIAAB8AAAAAkJmZmZn5vzAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:18:33.701Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
